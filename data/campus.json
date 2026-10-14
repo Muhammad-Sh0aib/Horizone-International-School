@@ -1,0 +1,148 @@
+{
+  "facilities": [
+    {
+      "id": "modern-classrooms",
+      "name": "Modern Classrooms",
+      "category": "learning",
+      "categoryLabel": "Learning",
+      "description": "Bright, flexible classrooms designed for discussion, collaboration and focused study.",
+      "detail": "Classrooms are the everyday heart of school life. Thoughtful layouts support whole-class teaching, small-group conversation, presentations and independent work, with arrangements adapted to the needs of each age group.",
+      "image": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=900&q=82",
+      "alt": "Sunlit classroom arranged for collaborative student learning",
+      "icon": "fa-solid fa-chalkboard-user"
+    },
+    {
+      "id": "science-laboratories",
+      "name": "Science Laboratories",
+      "category": "science-tech",
+      "categoryLabel": "Science & Technology",
+      "description": "Purposeful spaces for observation, investigation and practical science learning.",
+      "detail": "Laboratory activities help students connect scientific ideas with observation and evidence. Practical work is planned with age-appropriate guidance, careful routines and opportunities to ask questions about the natural world.",
+      "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=900&q=82",
+      "alt": "Science laboratory prepared for a practical investigation",
+      "icon": "fa-solid fa-flask"
+    },
+    {
+      "id": "digital-learning-labs",
+      "name": "Digital Learning Labs",
+      "category": "science-tech",
+      "categoryLabel": "Science & Technology",
+      "description": "Technology-supported environments for computing, research and project work.",
+      "detail": "Digital learning spaces give students room to develop computing skills, conduct guided research and work on projects. Technology is used with purpose, supporting creativity, communication and responsible digital participation.",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=82",
+      "alt": "Students using computers together in a digital learning space",
+      "icon": "fa-solid fa-laptop-code"
+    },
+    {
+      "id": "library-resource-centre",
+      "name": "Library & Learning Resource Centre",
+      "category": "learning",
+      "categoryLabel": "Learning",
+      "description": "A welcoming setting for reading, research, independent study and discovery.",
+      "detail": "The library offers a change of pace from the classroom: a place to read for pleasure, follow an interest, work quietly or gather material for a project. Students are encouraged to use resources with curiosity and independence.",
+      "image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=82",
+      "alt": "Shelves and reading tables in a welcoming school library",
+      "icon": "fa-solid fa-book-open-reader"
+    },
+    {
+      "id": "art-studios",
+      "name": "Art Studios",
+      "category": "arts-creativity",
+      "categoryLabel": "Arts & Creativity",
+      "description": "Creative environments for visual arts, design, making and self-expression.",
+      "detail": "Art studio activities invite students to experiment with materials, develop skills and make creative choices. Projects can include individual work and shared displays that celebrate process as well as finished pieces.",
+      "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=82",
+      "alt": "Art materials and student work in a creative studio",
+      "icon": "fa-solid fa-palette"
+    },
+    {
+      "id": "music-performing-arts",
+      "name": "Music & Performing Arts",
+      "category": "arts-creativity",
+      "categoryLabel": "Arts & Creativity",
+      "description": "Flexible spaces for music, drama, rehearsal, presentations and performance.",
+      "detail": "Music and performing arts give students ways to listen, create and communicate. Rehearsal and presentation spaces support individual practice, ensemble work and opportunities to share performances with the school community.",
+      "image": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=900&q=82",
+      "alt": "Stage prepared for a student music or performing arts event",
+      "icon": "fa-solid fa-music"
+    },
+    {
+      "id": "sports-facilities",
+      "name": "Sports Facilities",
+      "category": "sports",
+      "categoryLabel": "Sports",
+      "description": "Spaces for physical education, team activities, fitness and recreation.",
+      "detail": "Movement and play are an important part of a balanced school day. Sports areas accommodate physical education, team activities and recreational games, with students encouraged to participate, build confidence and support one another.",
+      "image": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=900&q=82",
+      "alt": "Outdoor sports field ready for student activity",
+      "icon": "fa-solid fa-volleyball"
+    },
+    {
+      "id": "outdoor-learning-areas",
+      "name": "Outdoor Learning Areas",
+      "category": "outdoor",
+      "categoryLabel": "Outdoor",
+      "description": "Open-air places for exploration, conversation, movement and learning outdoors.",
+      "detail": "Outdoor spaces allow students to step beyond the classroom for fresh-air breaks, group activities and informal exploration. They also provide room for movement and connection with the school community.",
+      "image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&w=900&q=82",
+      "alt": "Green outdoor area with room for learning and recreation",
+      "icon": "fa-solid fa-tree"
+    },
+    {
+      "id": "student-common-areas",
+      "name": "Student Common Areas",
+      "category": "student-life",
+      "categoryLabel": "Student Life",
+      "description": "Comfortable shared spaces for conversation, breaks and informal collaboration.",
+      "detail": "Common areas make space for the social side of school: meeting friends, sharing ideas and taking a pause between lessons. Clear expectations help keep these shared spaces welcoming for everyone.",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=82",
+      "alt": "Students spending time together in a relaxed school common area",
+      "icon": "fa-solid fa-people-group"
+    },
+    {
+      "id": "multipurpose-hall",
+      "name": "Multipurpose Hall",
+      "category": "student-life",
+      "categoryLabel": "Student Life",
+      "description": "A flexible venue for assemblies, performances, exhibitions and school gatherings.",
+      "detail": "Shared events help bring the school together. The multipurpose hall can be arranged for assemblies, performances, presentations, exhibitions and community occasions throughout the school year.",
+      "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=900&q=82",
+      "alt": "Bright event hall arranged for a school gathering",
+      "icon": "fa-solid fa-people-roof"
+    },
+    {
+      "id": "reception-visitor-area",
+      "name": "Reception & Visitor Area",
+      "category": "support",
+      "categoryLabel": "Support",
+      "description": "A welcoming first point of contact for families, visitors and the school community.",
+      "detail": "The reception area helps visitors find their way and connect with the right member of staff. School visitor arrangements are explained on arrival so that campus visits are clear and well managed.",
+      "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=82",
+      "alt": "Welcoming reception and meeting area in a school setting",
+      "icon": "fa-solid fa-door-open"
+    },
+    {
+      "id": "student-support-spaces",
+      "name": "Student Support Spaces",
+      "category": "support",
+      "categoryLabel": "Support",
+      "description": "Calm, welcoming places for student guidance, wellbeing conversations and quiet focus.",
+      "detail": "Students sometimes benefit from a quieter setting to talk, reflect or receive individual guidance. Support spaces offer a more private environment for conversations with the appropriate school staff.",
+      "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=82",
+      "alt": "Calm meeting space arranged for a supportive conversation",
+      "icon": "fa-solid fa-heart"
+    }
+  ],
+  "gallery": [
+    { "id": "campus-view", "category": "Campus", "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1100&q=82", "alt": "Contemporary school building framed by trees", "caption": "A welcoming setting for learning and community." },
+    { "id": "classroom-project", "category": "Classrooms", "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=82", "alt": "Teacher guiding students during a classroom activity", "caption": "Learning through conversation and shared work." },
+    { "id": "science-discovery", "category": "Science", "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=900&q=82", "alt": "Close view of practical work in a science and technology setting", "caption": "Questions lead to careful investigation." },
+    { "id": "technology-work", "category": "Technology", "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=82", "alt": "Students collaborating with computers during a project", "caption": "Digital tools used with purpose." },
+    { "id": "quiet-reading", "category": "Library", "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=82", "alt": "Reading tables and books in a quiet library", "caption": "A little quiet space for curiosity." },
+    { "id": "creative-work", "category": "Arts", "image": "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?auto=format&fit=crop&w=900&q=82", "alt": "Colourful painting and art materials in a studio", "caption": "Ideas take shape through making." },
+    { "id": "school-sports", "category": "Sports", "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1100&q=82", "alt": "Students taking part in an outdoor running activity", "caption": "Movement, teamwork and shared effort." },
+    { "id": "student-community", "category": "Student Life", "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=82", "alt": "Students talking together at a school event", "caption": "The small moments that build community." },
+    { "id": "campus-garden", "category": "Outdoor", "image": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1000&q=82", "alt": "Green outdoor space in soft morning light", "caption": "Room to pause, play and explore." },
+    { "id": "performance-space", "category": "Arts", "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=82", "alt": "Stage lights illuminating a performance space", "caption": "A place to share creative work." }
+  ]
+}

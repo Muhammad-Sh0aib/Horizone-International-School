@@ -1,0 +1,14 @@
+{
+  "brand": {
+    "name": "Horizon International School",
+    "tagline": "Inspiring Minds. Empowering Futures.",
+    "location": "Karachi, Pakistan",
+    "phone": "+92 21 3456 7890",
+    "email": "admissions@horizoninternationalschool.edu"
+  },
+  "contact": {
+    "admissionsOffice": "Admissions Office",
+    "phone": "+92 21 3456 7890",
+    "email": "admissions@horizoninternationalschool.edu"
+  }
+}

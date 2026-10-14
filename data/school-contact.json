@@ -1,0 +1,46 @@
+{
+  "institution": {
+    "name": "Horizon International School",
+    "tagline": "Inspiring Minds. Empowering Futures.",
+    "location": "Karachi, Pakistan",
+    "phone": "+92 21 3456 7890",
+    "email": "admissions@horizoninternationalschool.edu",
+    "officeHours": "Monday–Friday, 8:00 AM–4:00 PM",
+    "weekendNote": "Closed on Saturdays, Sundays, and official public holidays"
+  },
+  "departments": [
+    {
+      "id": "general",
+      "title": "General Enquiries",
+      "description": "For questions about the school community, academic programmes, student life, and general campus services.",
+      "phone": "+92 21 3456 7890",
+      "email": "admissions@horizoninternationalschool.edu",
+      "icon": "fa-circle-info",
+      "badge": "Central Enquiries"
+    },
+    {
+      "id": "admissions",
+      "title": "Admissions Office",
+      "description": "For new enrolments, eligibility criteria, required documentation, entry assessments, and application support.",
+      "phone": "+92 21 3456 7890",
+      "email": "admissions@horizoninternationalschool.edu",
+      "icon": "fa-user-graduate",
+      "badge": "Enrolment & Tours"
+    },
+    {
+      "id": "administration",
+      "title": "School Administration",
+      "description": "For student records, administrative assistance, fee payment coordination, and general office guidance.",
+      "phone": "+92 21 3456 7890",
+      "email": "admissions@horizoninternationalschool.edu",
+      "icon": "fa-building-columns",
+      "badge": "Administrative Desk"
+    }
+  ],
+  "visitingInformation": {
+    "title": "Campus Visits & Security Protocol",
+    "description": "To protect student safety and ensure dedicated time with an admissions advisor, all campus visits and walkthroughs are arranged by prior appointment.",
+    "hours": "Monday–Friday, 8:00 AM–4:00 PM",
+    "entryNote": "Visitors must present valid photo identification and register at the security entrance upon arrival."
+  }
+}

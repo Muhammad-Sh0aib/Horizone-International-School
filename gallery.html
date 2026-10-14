@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery | Horizon International School</title>
+    <meta
+      name="description"
+      content="Explore the Horizon International School gallery featuring campus life, classroom learning, science, creativity, sports, student activities and school events."
+    />
+    <meta property="og:title" content="Gallery | Horizon International School" />
+    <meta
+      property="og:description"
+      content="Moments that tell our story. Explore the learning, creativity, friendships, and experiences that shape everyday life at Horizon International School."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=82" />
+    <meta name="theme-color" content="#0d2340" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+  </head>
+  <body class="gallery-page">
+    <!-- Page Preloader -->
+    <div class="loader" aria-hidden="true">
+      <div class="loader__ring"></div>
+    </div>
+
+    <!-- Site Header & Navigation -->
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index.html" class="brand" aria-label="Horizon International School home page">
+          <span class="brand__mark">H</span>
+          <span>
+            <strong>Horizon</strong>
+            <small>International School</small>
+          </span>
+        </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <button class="nav-close" type="button" aria-label="Close navigation menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item has-dropdown">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="academics-menu">
+              Academics <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu" id="academics-menu">
+              <li><a href="academics.html">Academic Programs</a></li>
+              <li><a href="academics.html#curriculum">Curriculum</a></li>
+              <li><a href="academics.html#programs">Learning Stages</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="admissions-menu">
+              Admissions <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu" id="admissions-menu">
+              <li><a href="admissions.html">Admission Process</a></li>
+              <li><a href="admissions.html">Requirements</a></li>
+              <li><a href="admissions.html#application">Online Application</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="about-menu">
+              About <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu" id="about-menu">
+              <li><a href="about.html">About School</a></li>
+              <li><a href="faculty.html">Faculty</a></li>
+              <li><a href="campus.html">Campus</a></li>
+              <li><a href="events.html">Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li class="nav-item active"><a href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a href="downloads.html">Downloads</a></li>
+        </ul>
+      </nav>
+
+        <a href="admissions.html" class="button button--primary nav-cta">Apply Now</a>
+
+        <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- =================================================================
+           1. HERO SECTION
+           ================================================================= -->
+      <section class="page-hero gallery-hero" aria-label="Gallery of Horizon International School">
+        <div class="page-hero__media" aria-hidden="true"></div>
+        <div class="page-hero__overlay"></div>
+
+        <div class="container page-hero__content" data-reveal="fade-up">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span aria-current="page">Gallery</span>
+          </nav>
+
+          <p class="eyebrow">LIFE AT HORIZON</p>
+          <h1>Moments That Tell Our Story</h1>
+          <p>
+            Explore the learning, creativity, friendships, and experiences that shape life at Horizon International School. Every photograph offers a glimpse into the moments that make a school community special.
+          </p>
+
+          <div class="hero__actions page-hero__actions">
+            <a href="#main-gallery" class="button button--primary">
+              <i class="fa-solid fa-images" aria-hidden="true"></i> Explore the Gallery
+            </a>
+            <a href="campus.html" class="button button--secondary">
+              <i class="fa-solid fa-compass" aria-hidden="true"></i> Explore Our Campus
+            </a>
+          </div>
+
+          <aside class="gallery-hero-note">
+            <span><i class="fa-solid fa-camera-retro" aria-hidden="true"></i></span>
+            <div>
+              <strong>Everyday Life in Pictures</strong>
+              <p>“Experiences that inspire curiosity and build lasting confidence.”</p>
+            </div>
+          </aside>
+        </div>
+
+        <a class="gallery-hero-scroll" href="#gallery-intro" aria-label="Scroll to gallery introduction">
+          <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <!-- =================================================================
+           2. GALLERY INTRODUCTION (ASYMMETRICAL LAYOUT)
+           ================================================================= -->
+      <section class="gallery-intro section" id="gallery-intro">
+        <div class="container gallery-intro__layout">
+          <div class="gallery-intro__collage" data-reveal="fade-in">
+            <div class="gallery-intro__collage-main">
+              <img
+                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=85"
+                alt="Students laughing and collaborating outdoors on the campus grounds"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-intro__collage-sub">
+              <img
+                src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=600&q=85"
+                alt="Science laboratory experimentation"
+                loading="lazy"
+              />
+            </div>
+            <div class="gallery-intro__collage-sub">
+              <img
+                src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=600&q=85"
+                alt="Creative art studio workspace"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="gallery-intro__copy" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">OUR SCHOOL IN PICTURES</p>
+            <h2>More Than Classrooms and Lessons</h2>
+            <p>
+              A true education thrives in the spaces where ideas take flight, friendships take root, and confidence is nurtured through daily discovery. Life at Horizon brings together academic inquiry, creative expression, athletic movement, and shared community milestones.
+            </p>
+            <p>
+              These captured moments reflect the warmth and purpose of our learning environment—from the quiet focus of the library to the spirited camaraderie of sports fields and collaborative art studios.
+            </p>
+
+            <div class="gallery-intro__highlights">
+              <article class="gallery-highlight-card">
+                <span class="gallery-highlight-icon">
+                  <i class="fa-solid fa-book-open-reader" aria-hidden="true"></i>
+                </span>
+                <div>
+                  <h3>Learning in Action</h3>
+                  <p>Moments of curiosity, discovery, and academic exploration in vibrant learning spaces.</p>
+                </div>
+              </article>
+
+              <article class="gallery-highlight-card">
+                <span class="gallery-highlight-icon">
+                  <i class="fa-solid fa-people-group" aria-hidden="true"></i>
+                </span>
+                <div>
+                  <h3>Growing Together</h3>
+                  <p>Friendships, teamwork, collaboration, and shared experiences that build character.</p>
+                </div>
+              </article>
+
+              <article class="gallery-highlight-card">
+                <span class="gallery-highlight-icon">
+                  <i class="fa-solid fa-palette" aria-hidden="true"></i>
+                </span>
+                <div>
+                  <h3>Finding Their Voice</h3>
+                  <p>Creative projects, theatrical performances, ideas, and authentic student expression.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           3. FEATURED PHOTO STORY
+           ================================================================= -->
+      <section class="gallery-story section section--soft" id="featured-story" aria-label="Featured photo story">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">FEATURED STORY</p>
+            <h2 id="story-title">A Day Full of Discovery</h2>
+            <p>Step into the daily rhythms where inquiry, creativity, and mentorship inspire students to reach higher.</p>
+          </div>
+
+          <article class="gallery-story__card" data-reveal="fade-up">
+            <div class="gallery-story__media">
+              <img
+                id="story-img"
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=85"
+                alt="Students collaborating warmly around shared learning materials in a bright classroom"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="gallery-story__content">
+              <span class="gallery-story__category" id="story-category">Academics</span>
+              <h3 class="gallery-story__title">Curiosity Leads the Way</h3>
+              <p class="gallery-story__desc" id="story-desc">
+                Step into a typical morning where curiosity leads the way. From guided scientific experiments and lively classroom debates to quiet moments with a book and collaborative studio art, students actively shape their own learning experiences across every corner of our campus.
+              </p>
+              <div>
+                <button type="button" class="button button--primary" id="story-view-btn" data-story-category="academics">
+                  <i class="fa-solid fa-photo-film" aria-hidden="true"></i> View Photos
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           4. CATEGORY NAVIGATION + SEARCH + 5. MAIN PHOTO GALLERY
+           ================================================================= -->
+      <section class="main-gallery section" id="main-gallery" aria-label="Main photo gallery">
+        <div class="container">
+          <div class="section-heading section-heading--split" data-reveal="fade-up">
+            <div>
+              <p class="eyebrow eyebrow--small">EXPLORE OUR MOMENTS</p>
+              <h2>Explore Our Moments</h2>
+            </div>
+            <p>
+              Browse photographs by category, search by topic, and select any image to open the interactive high-resolution viewer.
+            </p>
+          </div>
+
+          <!-- Category Filter Strip & Search Field -->
+          <div class="gallery-toolbar" data-reveal="fade-up">
+            <div class="gallery-search-box">
+              <label for="gallery-search-input">Search photos</label>
+              <div class="gallery-search-input-wrap">
+                <i class="fa-solid fa-magnifying-glass gallery-search-icon" aria-hidden="true"></i>
+                <input
+                  type="search"
+                  id="gallery-search-input"
+                  class="gallery-search-input"
+                  placeholder="Search photos by category or keyword..."
+                  autocomplete="off"
+                />
+                <button
+                  type="button"
+                  id="gallery-search-clear"
+                  class="gallery-search-clear"
+                  aria-label="Clear search input"
+                  hidden
+                >
+                  <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Category Pills -->
+            <div class="gallery-filter-scroll" role="group" aria-label="Filter gallery photos by category">
+              <button class="gallery-filter-btn is-active" type="button" data-gallery-filter="all" aria-pressed="true">
+                All Photos
+              </button>
+              <button class="gallery-filter-btn" type="button" data-gallery-filter="campus" aria-pressed="false">
+                Campus
+              </button>
+              <button class="gallery-filter-btn" type="button" data-gallery-filter="classrooms" aria-pressed="false">
+                Classrooms
+              </button>
+              <button class="gallery-filter-btn" type="button" data-gallery-filter="academics" aria-pressed="false">
+                Academics
+              </button>
+              <button class="gallery-filter-btn" type="button" data-gallery-filter="science" aria-pressed="false">
+                Science &amp; Technology
+              </button>
+              <button class="gallery-filter-btn" type="button" data-gallery-filter="arts" aria-pressed="false">
+                Arts &amp; Creativity
+              </button>
+              <button class="gallery-filter-btn" type="button" data-gallery-filter="sports" aria-pressed="false">
+                Sports
+              </button>
+              <button class="gallery-filter-btn" type="button" data-gallery-filter="events" aria-pressed="false">
+                Events &amp; Celebrations
+              </button>
+              <button class="gallery-filter-btn" type="button" data-gallery-filter="student-life" aria-pressed="false">
+                Student Life
+              </button>
+              <button class="gallery-filter-btn" type="button" data-gallery-filter="outdoor" aria-pressed="false">
+                Outdoor Activities
+              </button>
+            </div>
+          </div>
+
+          <!-- Dynamic Results Count -->
+          <div class="gallery-status-row">
+            <p class="gallery-status" id="gallery-status" role="status" aria-live="polite">
+              Loading gallery photos…
+            </p>
+          </div>
+
+          <!-- Masonry-Style Asymmetrical Gallery Grid -->
+          <div class="gallery-masonry-grid" id="gallery-masonry-grid" aria-live="polite">
+            <!-- Skeleton Placeholders -->
+            <div class="gallery-skeleton" aria-hidden="true"></div>
+            <div class="gallery-skeleton" aria-hidden="true"></div>
+            <div class="gallery-skeleton" aria-hidden="true"></div>
+            <div class="gallery-skeleton" aria-hidden="true"></div>
+            <div class="gallery-skeleton" aria-hidden="true"></div>
+            <div class="gallery-skeleton" aria-hidden="true"></div>
+          </div>
+
+          <!-- Empty State (No search matches) -->
+          <div class="gallery-empty" id="gallery-empty" hidden>
+            <div class="gallery-empty__icon" aria-hidden="true">
+              <i class="fa-solid fa-camera-rotate"></i>
+            </div>
+            <h3>No Photos Found</h3>
+            <p>Try another keyword or choose a different category to explore more moments.</p>
+            <button type="button" class="button button--primary" id="clear-filters-btn">
+              Clear Search &amp; Filters
+            </button>
+          </div>
+
+          <!-- Error State -->
+          <div class="gallery-error" id="gallery-error" hidden>
+            <div class="gallery-error__icon" aria-hidden="true">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h3>Gallery Temporarily Unavailable</h3>
+            <p>We're unable to load the photo gallery right now. Please try again shortly or contact the school office.</p>
+            <a href="mailto:admissions@horizoninternationalschool.edu" class="button button--primary">
+              Contact School Office
+            </a>
+          </div>
+
+          <!-- 6. Load More Photographs Control -->
+          <div class="gallery-load-more-wrap" id="gallery-load-more-wrap" hidden>
+            <button type="button" class="button button--secondary gallery-load-more-btn" id="gallery-load-more-btn">
+              <i class="fa-solid fa-images" aria-hidden="true"></i> Load More Photos
+            </button>
+            <span class="gallery-load-more-status" id="gallery-load-more-status"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           7. PHOTO COLLECTIONS SECTION
+           ================================================================= -->
+      <section class="collections-section section section--soft" id="collections" aria-label="Curated photo collections">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">CURATED HIGHLIGHTS</p>
+            <h2>Explore by Collection</h2>
+            <p>Discover themed photo sets showcasing academic discovery, physical athletics, artistic works, and campus milestones.</p>
+          </div>
+
+          <div class="collections-grid">
+            <article class="collection-card" data-collection-target="academics" data-reveal="fade-up">
+              <div class="collection-card__media">
+                <img
+                  class="collection-card__img"
+                  src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&q=80"
+                  alt="Library and collaborative classroom spaces"
+                  loading="lazy"
+                />
+                <span class="collection-card__badge">Loading…</span>
+              </div>
+              <div class="collection-card__body">
+                <h3 class="collection-card__title">Learning in Action</h3>
+                <p class="collection-card__desc">Classroom activities, academic exploration, project investigations, and collaborative group learning.</p>
+                <span class="collection-card__action">
+                  Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </article>
+
+            <article class="collection-card" data-collection-target="science" data-reveal="fade-up">
+              <div class="collection-card__media">
+                <img
+                  class="collection-card__img"
+                  src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&w=800&q=80"
+                  alt="Science laboratory experimentation apparatus"
+                  loading="lazy"
+                />
+                <span class="collection-card__badge">Loading…</span>
+              </div>
+              <div class="collection-card__body">
+                <h3 class="collection-card__title">Science &amp; Discovery</h3>
+                <p class="collection-card__desc">Practical science inquiry, hands-on chemistry investigations, robotics programming, and technology projects.</p>
+                <span class="collection-card__action">
+                  Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </article>
+
+            <article class="collection-card" data-collection-target="arts" data-reveal="fade-up">
+              <div class="collection-card__media">
+                <img
+                  class="collection-card__img"
+                  src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+                  alt="Visual art studio paint jars and paintings"
+                  loading="lazy"
+                />
+                <span class="collection-card__badge">Loading…</span>
+              </div>
+              <div class="collection-card__body">
+                <h3 class="collection-card__title">Creative Expression</h3>
+                <p class="collection-card__desc">Visual art studios, ceramic pottery, musical performances, drama stagecraft, and original student designs.</p>
+                <span class="collection-card__action">
+                  Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </article>
+
+            <article class="collection-card" data-collection-target="sports" data-reveal="fade-up">
+              <div class="collection-card__media">
+                <img
+                  class="collection-card__img"
+                  src="https://images.unsplash.com/photo-1541534401786-2077eed87a74?auto=format&fit=crop&w=800&q=80"
+                  alt="Student runner sprinting on athletic track"
+                  loading="lazy"
+                />
+                <span class="collection-card__badge">Loading…</span>
+              </div>
+              <div class="collection-card__body">
+                <h3 class="collection-card__title">Sports &amp; Teamwork</h3>
+                <p class="collection-card__desc">Track championships, athletic relays, gym basketball games, football training, and teamwork on the fields.</p>
+                <span class="collection-card__action">
+                  Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </article>
+
+            <article class="collection-card" data-collection-target="events" data-reveal="fade-up">
+              <div class="collection-card__media">
+                <img
+                  class="collection-card__img"
+                  src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+                  alt="Students presenting at the annual showcase event"
+                  loading="lazy"
+                />
+                <span class="collection-card__badge">Loading…</span>
+              </div>
+              <div class="collection-card__body">
+                <h3 class="collection-card__title">School Celebrations</h3>
+                <p class="collection-card__desc">Annual showcases, awards ceremonies, auditorium theatrical productions, and vibrant community festivals.</p>
+                <span class="collection-card__action">
+                  Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </article>
+
+            <article class="collection-card" data-collection-target="campus" data-reveal="fade-up">
+              <div class="collection-card__media">
+                <img
+                  class="collection-card__img"
+                  src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80"
+                  alt="Main campus building exterior and gardens"
+                  loading="lazy"
+                />
+                <span class="collection-card__badge">Loading…</span>
+              </div>
+              <div class="collection-card__body">
+                <h3 class="collection-card__title">Everyday Campus Life</h3>
+                <p class="collection-card__desc">Campus courtyards, library walkways, informal garden discussions, and welcoming spaces across grounds.</p>
+                <span class="collection-card__action">
+                  Explore Collection <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           8. CAMPUS PHOTO STORY (CONNECTING WITH CAMPUS.HTML)
+           ================================================================= -->
+      <section class="campus-story-section section" id="campus-story" aria-label="Campus learning environments story">
+        <div class="container campus-story__layout">
+          <div class="campus-story__media" data-reveal="fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=85"
+              alt="Bright school buildings surrounded by green gardens and open campus grounds"
+              loading="lazy"
+            />
+            <div class="campus-story__caption">
+              <i class="fa-solid fa-compass" aria-hidden="true"></i>
+              <span>Purpose-built environments planned around student collaboration, comfort, and focus.</span>
+            </div>
+          </div>
+
+          <div class="campus-story__copy" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">OUR LEARNING ENVIRONMENT</p>
+            <h2>Every Space Has a Story</h2>
+            <p>
+              The physical setting of a school shapes the way students think, collaborate, and explore. At Horizon, our modern classrooms, specialized science labs, digital studios, expansive library, and landscaped outdoor grounds work together as an interconnected campus.
+            </p>
+            <p>
+              Different spaces accommodate different rhythms of the day—whether learners require deep individual concentration, active laboratory investigation, energetic athletics, or quiet contemplation under shade trees.
+            </p>
+            <div>
+              <a href="campus.html" class="button button--primary">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i> Explore Our Campus
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           9. STUDENT LIFE PHOTO STORY
+           ================================================================= -->
+      <section class="student-life-story-section section section--soft" id="student-life-story" aria-label="Student life and daily connections">
+        <div class="container student-life-story__layout">
+          <div class="student-life-story__copy" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">BETWEEN LESSONS</p>
+            <h2>The Moments Between Lessons</h2>
+            <p>
+              “Some of the most meaningful school experiences happen while students work together, discover new interests, share ideas, and build friendships.”
+            </p>
+            <p>
+              Beyond structured syllabi and examinations, school is where young people learn empathy, teamwork, and mutual respect. From informal peer study circles in the library foyer to spontaneous laughter in the quadrangle, these daily interactions define the Horizon experience.
+            </p>
+            <div>
+              <a href="index.html#student-life" class="button button--secondary">
+                <i class="fa-solid fa-users" aria-hidden="true"></i> Discover Student Life
+              </a>
+            </div>
+          </div>
+
+          <div class="student-life-story__collage" data-reveal="fade-in">
+            <div class="student-life-story__main-img">
+              <img
+                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=85"
+                alt="Smiling student friends enjoying sunshine together"
+                loading="lazy"
+              />
+            </div>
+            <div class="student-life-story__sub-img">
+              <img
+                src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?auto=format&fit=crop&w=600&q=85"
+                alt="Students studying collaboratively"
+                loading="lazy"
+              />
+            </div>
+            <div class="student-life-story__sub-img">
+              <img
+                src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=600&q=85"
+                alt="Students walking together in campus courtyard"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           10. EVENTS GALLERY CONNECTION (CONNECTING WITH EVENTS.HTML)
+           ================================================================= -->
+      <section class="events-connection-section section" id="events-connection" aria-label="School events and memories connection">
+        <div class="container">
+          <article class="events-connect__card" data-reveal="fade-up">
+            <div class="events-connect__media">
+              <img
+                src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=85"
+                alt="Full school auditorium assembly during celebration day"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="events-connect__body">
+              <p class="eyebrow eyebrow--small">COMMUNITY CELEBRATIONS</p>
+              <h3>Remembering Special Moments</h3>
+              <p>
+                From athletic championship meets and science showcases to drama performances, choral recitals, and cultural days, school events bring our students, teachers, and families together in shared celebration. Explore our comprehensive events calendar and archive to learn more.
+              </p>
+              <div>
+                <a href="events.html" class="button button--primary">
+                  <i class="fa-solid fa-calendar-days" aria-hidden="true"></i> Explore School Events
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           11. FINAL CALL TO ACTION
+           ================================================================= -->
+      <section class="gallery-final-cta section section--accent" id="final-cta" aria-label="Discover Horizon Call to Action">
+        <div class="container gallery-final-cta__inner" data-reveal="fade-up">
+          <div class="gallery-final-cta__content">
+            <p class="eyebrow eyebrow--small">DISCOVER HORIZON</p>
+            <h2>Every Picture Holds a Possibility</h2>
+            <p>
+              Explore the places, people, and experiences that make up life at Horizon International School. We invite you to visit our campus and experience our vibrant community firsthand.
+            </p>
+          </div>
+
+          <div class="gallery-final-cta__actions">
+            <a href="campus.html" class="button button--primary">
+              <i class="fa-solid fa-compass" aria-hidden="true"></i> Explore Our Campus
+            </a>
+            <a href="events.html" class="button button--secondary button--light">
+              <i class="fa-solid fa-calendar-week" aria-hidden="true"></i> Discover School Events
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =================================================================
+           INTERACTIVE ACCESSIBLE LIGHTBOX COMPONENT
+           ================================================================= -->
+    <div class="gallery-lightbox" id="gallery-lightbox" aria-hidden="true">
+      <div
+        class="gallery-lightbox__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-label="High-resolution photo viewer"
+        tabindex="-1"
+      >
+        <button class="gallery-lightbox__close" type="button" aria-label="Close photo viewer">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+
+        <button class="gallery-lightbox__nav gallery-lightbox__previous" type="button" aria-label="Previous photo">
+          <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        </button>
+
+        <figure class="gallery-lightbox__figure">
+          <img src="" alt="" />
+          <div class="gallery-lightbox__meta">
+            <span class="gallery-lightbox__category"></span>
+            <h3 class="gallery-lightbox__title"></h3>
+            <p class="gallery-lightbox__caption"></p>
+            <span class="gallery-lightbox__count" aria-live="polite"></span>
+          </div>
+        </figure>
+
+        <button class="gallery-lightbox__nav gallery-lightbox__next" type="button" aria-label="Next photo">
+          <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- =================================================================
+           SITE FOOTER (REUSED EXACT EXISTING STRUCTURE)
+           ================================================================= -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="brand brand--footer">
+            <span class="brand__mark">H</span>
+            <span>
+              <strong>Horizon</strong>
+              <small>International School</small>
+            </span>
+          </div>
+          <p>Inspiring Minds. Empowering Futures.</p>
+        </div>
+
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="campus.html">Campus</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+            <li><a href="mailto:admissions@horizoninternationalschool.edu">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Admissions</h3>
+          <ul>
+            <li><a href="admissions.html">Admission Process</a></li>
+            <li><a href="admissions.html">Requirements</a></li>
+            <li><a href="admissions.html">Fee Structure</a></li>
+            <li><a href="admissions.html#application">Online Application</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul class="contact-list">
+            <li>Karachi, Pakistan</li>
+            <li><a href="tel:+922134567890">+92 21 3456 7890</a></li>
+            <li>
+              <a href="mailto:admissions@horizoninternationalschool.edu">admissions@horizoninternationalschool.edu</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Social Media</h3>
+          <ul class="social-links">
+            <li>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+            </li>
+            <li>
+              <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i> YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom__inner">
+          <p>&copy; 2026 Horizon International School. All rights reserved.</p>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &amp; Conditions</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" type="button" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+{
+  "subjects": [
+    {
+      "title": "English Language",
+      "description": "Communication, reading, writing and literary analysis.",
+      "icon": "fa-solid fa-book-open",
+      "category": "languages"
+    },
+    {
+      "title": "Mathematics",
+      "description": "Numerical reasoning, problem solving and analytical thinking.",
+      "icon": "fa-solid fa-calculator",
+      "category": "stem"
+    },
+    {
+      "title": "Science",
+      "description": "Investigation, experimentation and understanding the natural world.",
+      "icon": "fa-solid fa-flask",
+      "category": "stem"
+    },
+    {
+      "title": "Physics",
+      "description": "Understanding forces, energy, motion and matter.",
+      "icon": "fa-solid fa-atom",
+      "category": "stem"
+    },
+    {
+      "title": "Chemistry",
+      "description": "Exploring reactions, elements and molecular structures.",
+      "icon": "fa-solid fa-droplet",
+      "category": "stem"
+    },
+    {
+      "title": "Biology",
+      "description": "Studying living organisms and biological systems.",
+      "icon": "fa-solid fa-leaf",
+      "category": "stem"
+    },
+    {
+      "title": "Computing & Technology",
+      "description": "Digital literacy, coding and responsible technology use.",
+      "icon": "fa-solid fa-laptop",
+      "category": "stem"
+    },
+    {
+      "title": "History",
+      "description": "Understanding past events and their impact on today.",
+      "icon": "fa-solid fa-landmark",
+      "category": "humanities"
+    },
+    {
+      "title": "Geography",
+      "description": "Exploring places, cultures and environmental systems.",
+      "icon": "fa-solid fa-globe",
+      "category": "humanities"
+    },
+    {
+      "title": "Social Studies",
+      "description": "Understanding society, culture and human relationships.",
+      "icon": "fa-solid fa-people-group",
+      "category": "humanities"
+    },
+    {
+      "title": "Visual Arts",
+      "description": "Painting, drawing, sculpture and artistic expression.",
+      "icon": "fa-solid fa-palette",
+      "category": "creative"
+    },
+    {
+      "title": "Music",
+      "description": "Musical theory, composition and performance.",
+      "icon": "fa-solid fa-music",
+      "category": "creative"
+    },
+    {
+      "title": "Drama & Performance",
+      "description": "Acting, theater and creative expression through performance.",
+      "icon": "fa-solid fa-masks-theater",
+      "category": "creative"
+    },
+    {
+      "title": "Design & Technology",
+      "description": "Creative design, engineering and practical making.",
+      "icon": "fa-solid fa-hammer",
+      "category": "creative"
+    },
+    {
+      "title": "Physical Education",
+      "description": "Movement, fitness, teamwork and athletic development.",
+      "icon": "fa-solid fa-person-running",
+      "category": "physical"
+    },
+    {
+      "title": "Sports Science",
+      "description": "Understanding human movement and athletic performance.",
+      "icon": "fa-solid fa-heartbeat",
+      "category": "physical"
+    },
+    {
+      "title": "Personal Development",
+      "description": "Communication, leadership, responsibility and wellbeing.",
+      "icon": "fa-solid fa-user-graduate",
+      "category": "humanities"
+    },
+    {
+      "title": "Modern Languages",
+      "description": "Learning international languages and cross-cultural communication.",
+      "icon": "fa-solid fa-language",
+      "category": "languages"
+    }
+  ]
+}

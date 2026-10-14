@@ -1,0 +1,54 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "When do admissions open?",
+      "answer": "Applications for the 2026–27 academic session open on January 15, 2026. Families are encouraged to apply early because places may be limited. The priority application period runs until August 15, 2026."
+    },
+    {
+      "id": 2,
+      "question": "Which grades are accepting applications?",
+      "answer": "Applications may be submitted for Early Years through Higher Secondary, subject to available places and program requirements. Each grade level has specific admission criteria. Contact the admissions office to confirm availability for your child's intended grade."
+    },
+    {
+      "id": 3,
+      "question": "Can I visit the school before applying?",
+      "answer": "Yes. Families can contact the admissions office to discuss a campus visit and available visiting arrangements. Campus visits are encouraged as they help families understand the school environment and help us learn more about your child."
+    },
+    {
+      "id": 4,
+      "question": "Is an entrance assessment required?",
+      "answer": "Assessment requirements depend on the student's age and grade. The admissions team will explain the applicable process during the application stage. Some grades may include informal assessments to understand the child's learning style and needs."
+    },
+    {
+      "id": 5,
+      "question": "What documents should I prepare?",
+      "answer": "Parents should prepare student identification, recent photographs and academic records where applicable, along with parent/guardian identification and contact information. The admissions office will provide a complete list of required documents specific to your child's grade."
+    },
+    {
+      "id": 6,
+      "question": "Can transfer students apply?",
+      "answer": "Yes. Transfer applications can be considered subject to available places and the school's admission requirements. Transfer students must provide relevant documentation, academic records and information about their previous school."
+    },
+    {
+      "id": 7,
+      "question": "How can I contact the admissions office?",
+      "answer": "Families can contact the admissions team by phone at +92 21 3456 7890, email at admissions@horizoninternationalschool.edu, or through the website's inquiry form. Our team is available Monday–Friday, 8:00 AM–4:00 PM."
+    },
+    {
+      "id": 8,
+      "question": "How long does the admission process take?",
+      "answer": "The timeline depends on the application, required documentation, assessment and availability of places. Generally, the process takes 4–8 weeks from application to admission decision. The admissions team will guide families through each stage and provide updates."
+    },
+    {
+      "id": 9,
+      "question": "What is the cost of applying?",
+      "answer": "There is an application or registration fee that covers the cost of processing the application. The exact amount varies by grade and will be communicated by the admissions office when you begin your application."
+    },
+    {
+      "id": 10,
+      "question": "Are siblings given preference in admissions?",
+      "answer": "The admissions process is based on merit, available places and program suitability. While sibling relationships are considered, they do not guarantee admission. Each application is evaluated on its individual merits."
+    }
+  ]
+}

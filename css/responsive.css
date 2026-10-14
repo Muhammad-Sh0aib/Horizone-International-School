@@ -1,0 +1,898 @@
+@media (max-width: 1100px) {
+  /* ── Mobile Nav Backdrop ── */
+  .nav-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(6, 19, 34, 0.6);
+    backdrop-filter: blur(4px);
+    z-index: 998;
+    opacity: 0;
+    transition: opacity 280ms ease;
+  }
+
+  .nav-backdrop.open {
+    display: block;
+    opacity: 1;
+  }
+
+  /* ── Mobile Nav Panel ── */
+  .main-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(360px, calc(100vw - 56px));
+    background: rgba(9, 27, 50, 0.99);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -20px 0 60px rgba(0, 0, 0, 0.35);
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 320ms cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 320ms ease,
+                visibility 320ms ease;
+    z-index: 999;
+    overflow: hidden;
+  }
+
+  .main-nav.open {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* ── Close Button Row ── */
+  .nav-close {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 20px 16px;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    background: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .nav-close::before {
+    content: "MENU";
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .nav-close i {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1rem;
+    transition: background var(--transition), border-color var(--transition);
+  }
+
+  .nav-close:hover i {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+
+  /* ── Nav List ── */
+  .nav-list {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    padding: 14px 14px 24px;
+    margin: 0;
+    overflow-y: auto;
+    flex: 1;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.12) transparent;
+  }
+
+  .nav-list::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .nav-list::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .nav-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 4px;
+  }
+
+  /* ── Nav Item Links & Toggles ── */
+  .nav-item a,
+  .nav-item .nav-toggle {
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px 14px;
+    color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    font-size: 0.95rem;
+  }
+
+  .nav-item a:hover,
+  .nav-item a:focus {
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+  }
+
+  .nav-item .nav-toggle {
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    background: rgba(255, 255, 255, 0.02);
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .nav-item .nav-toggle:hover,
+  .nav-item .nav-toggle:focus {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: rgba(255, 255, 255, 0.12);
+    color: #fff;
+  }
+
+  /* ── Chevron rotation when open ── */
+  .nav-item .nav-toggle .fa-chevron-down {
+    transition: transform 250ms ease;
+  }
+
+  .nav-item.has-dropdown.open .nav-toggle .fa-chevron-down {
+    transform: rotate(180deg);
+  }
+
+  /* ── Active State ── */
+  .nav-item.active > a,
+  .nav-item.active > .nav-toggle {
+    background: rgba(217, 168, 75, 0.12);
+    color: var(--accent-color);
+    border-color: rgba(217, 168, 75, 0.18);
+  }
+
+  /* ── Dropdown ── */
+  .dropdown-menu {
+    position: static;
+    min-width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    display: none;
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    padding: 6px;
+  }
+
+  .nav-item.has-dropdown.open .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-menu a {
+    color: rgba(255, 255, 255, 0.72);
+    border-radius: 8px;
+    padding: 9px 12px;
+    font-size: 0.9rem;
+  }
+
+  .dropdown-menu a:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+  }
+
+  /* ── Apply Now CTA inside nav panel ── */
+  .main-nav::after {
+    content: "";
+    display: block;
+    flex-shrink: 0;
+  }
+
+  /* ── Mobile Toggle Button (hamburger) ── */
+  .mobile-menu-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ── Hide Apply Now button in nav (shows in mobile menu via panel) ── */
+  .nav-cta {
+    display: none;
+  }
+
+  /* ── Underline indicators off in mobile ── */
+  .nav-item > a::after,
+  .nav-toggle::after {
+    display: none;
+  }
+
+  /* ── Grid adjustments ── */
+  .hero__content-wrap {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .floating-card {
+    width: min(500px, 100%);
+    margin-left: 0;
+  }
+
+  .stats__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid-two,
+  .campus__layout,
+  .section-heading--split,
+  .admissions-cta__inner,
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-center {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .feature-grid,
+  .program-grid,
+  .news-grid,
+  .life-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .program-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery-item--wide,
+  .gallery-item--tall,
+  .gallery-item--medium,
+  .gallery-item--square,
+  .gallery-item--compact {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    --header-height: 78px;
+  }
+
+  .section {
+    padding: 80px 0;
+  }
+
+  .hero {
+    min-height: 700px;
+  }
+
+  .hero__content {
+    padding-top: 0;
+  }
+
+  .hero__actions,
+  .admissions-cta__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .hero__content .admission-status {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 18px;
+  }
+
+  .stats__grid {
+    grid-template-columns: 1fr;
+    padding: 18px;
+  }
+
+  .feature-grid,
+  .program-grid,
+  .news-grid,
+  .resource-center,
+  .life-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .facility-list {
+    grid-template-columns: 1fr;
+  }
+
+  .life-item.large {
+    grid-column: span 1;
+    min-height: 420px;
+  }
+
+  .footer-bottom__inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-legal {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  /* Academics Page Responsive */
+  .journey-timeline::before {
+    display: none;
+  }
+
+  .journey-stage {
+    grid-template-columns: 1fr !important;
+    grid-template-areas: unset !important;
+  }
+
+  .journey-stage__marker {
+    justify-self: start;
+    margin-top: 0;
+  }
+
+  .journey-stage:nth-child(odd) .journey-stage__marker {
+    justify-self: start;
+    grid-area: unset;
+  }
+
+  .academic-panel {
+    grid-template-columns: 1fr;
+    padding: 28px 20px;
+    gap: 24px;
+  }
+
+  .academic-panel--2,
+  .academic-panel--4 {
+    direction: ltr;
+  }
+
+  .panel-image {
+    min-height: 280px;
+  }
+
+  .curriculum-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .curriculum-copy {
+    padding-right: 0;
+  }
+
+  .curriculum-principles {
+    grid-template-columns: 1fr;
+  }
+
+  .curriculum-image img {
+    height: 380px;
+  }
+
+  .subjects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+  }
+
+  .approaches-grid,
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-filter {
+    gap: 8px;
+  }
+
+  .filter-btn {
+    padding: 8px 14px;
+    font-size: 0.82rem;
+  }
+
+  .enrichment-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .assessment-layout {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .assessment-cycle {
+    flex-direction: column;
+  }
+
+  .cycle-arrow {
+    transform: rotate(90deg);
+    display: block;
+    margin: -10px 0;
+  }
+
+  .cycle-arrow:last-of-type {
+    display: block;
+  }
+
+  .support-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .support-image img {
+    height: 420px;
+  }
+
+  .resources-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: min(100% - 20px, 1200px);
+  }
+
+  .site-header {
+    min-height: unset;
+  }
+
+  .brand strong {
+    font-size: 1.48rem;
+  }
+
+  .brand small {
+    letter-spacing: 0.08em;
+  }
+
+  .hero__content-wrap {
+    padding-top: 100px;
+  }
+
+  .about__image-wrap img {
+    height: 460px;
+  }
+
+  .admissions-cta__inner {
+    padding: 28px 20px;
+  }
+
+  .floating-card {
+    padding: 22px 18px;
+  }
+
+  /* Academics Page Mobile */
+  .enrichment-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .enrichment-item {
+    height: 280px;
+  }
+
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-card {
+    padding: 22px 18px;
+  }
+
+  .panel-image {
+    min-height: 240px;
+  }
+
+  .curriculum-image img {
+    height: 300px;
+  }
+
+  /* Admissions Page Responsive */
+  .admission-status-content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+
+  .status-info,
+  .status-actions {
+    width: 100%;
+  }
+
+  .status-actions {
+    justify-content: stretch;
+  }
+
+  .status-actions .button {
+    flex: 1;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .programs-list {
+    grid-template-columns: 1fr;
+  }
+
+  .program-option {
+    padding: 20px 16px;
+  }
+
+  .journey-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .journey-steps::before {
+    left: 22px;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    width: 2px;
+    background: linear-gradient(180deg, rgba(217, 168, 75, 0.25), rgba(13, 35, 64, 0.1));
+  }
+
+  .step {
+    padding: 22px 18px 22px 80px;
+  }
+
+  .step-number {
+    position: absolute;
+    left: -24px;
+    top: 22px;
+    width: 44px;
+    height: 44px;
+    font-size: 1rem;
+  }
+
+  .requirements-grid,
+  .documents-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .requirement-group,
+  .document-group {
+    padding: 22px 18px;
+  }
+
+  .dates-timeline {
+    padding-left: 60px;
+  }
+
+  .dates-timeline::before {
+    left: 10px;
+  }
+
+  .date-marker {
+    left: -50px;
+    width: 60px;
+  }
+
+  .date-label {
+    font-size: 0.75rem;
+  }
+
+  .date-item {
+    padding-left: 40px;
+  }
+
+  .date-content {
+    padding: 16px 18px;
+  }
+
+  .process-stages {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .application-info-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .app-image {
+    order: -1;
+  }
+
+  .app-image img {
+    height: 320px;
+  }
+
+  .app-checklist {
+    grid-template-columns: 1fr;
+  }
+
+  .app-actions {
+    flex-direction: column;
+  }
+
+  .fees-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .faq-question {
+    padding: 18px 16px;
+    font-size: 0.95rem;
+  }
+
+  .faq-item.open .faq-answer {
+    padding: 0 16px 16px;
+  }
+
+  .contact-methods {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-method {
+    padding: 24px 20px;
+  }
+
+  .final-cta-panel {
+    grid-template-columns: 1fr;
+    padding: 28px 20px;
+  }
+
+  .final-cta-actions {
+    width: 100%;
+  }
+
+  .final-cta-actions .button {
+    flex: 1;
+  }
+}
+
+@media (max-width: 760px) {
+  .page-hero {
+    min-height: 500px;
+  }
+
+  .page-hero__content {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+
+  .breadcrumb {
+    font-size: 0.7rem;
+  }
+
+  .page-hero__actions {
+    flex-direction: column;
+  }
+
+  .page-hero__actions .button {
+    width: 100%;
+  }
+
+  .section-compact {
+    padding: 40px 0;
+  }
+
+  .admission-status-bar {
+    padding: 40px 0;
+  }
+
+  .status-info {
+    min-width: 100%;
+  }
+
+  .status-title {
+    font-size: clamp(1.5rem, 2vw, 1.8rem);
+  }
+
+  .status-session,
+  .status-dates {
+    font-size: 0.9rem;
+  }
+
+  .benefits-grid,
+  .programs-list,
+  .journey-steps,
+  .requirements-grid,
+  .documents-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .benefit-card,
+  .program-option,
+  .step {
+    padding: 18px 14px;
+  }
+
+  .benefit-card h3,
+  .program-option h3,
+  .requirement-group h3,
+  .document-group h3 {
+    font-size: 1.5rem;
+  }
+
+  .process-stages {
+    grid-template-columns: 1fr;
+  }
+
+  .process-stage {
+    padding: 20px 16px;
+  }
+
+  .dates-timeline {
+    padding-left: 50px;
+  }
+
+  .dates-timeline::before {
+    left: 8px;
+  }
+
+  .date-marker {
+    left: -40px;
+    width: 50px;
+  }
+
+  .date-content {
+    padding: 14px 14px;
+  }
+
+  .date-content h3 {
+    font-size: 1.4rem;
+  }
+
+  .fees-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-question {
+    padding: 16px 14px;
+    font-size: 0.92rem;
+  }
+
+  .faq-item.open .faq-answer {
+    max-height: 600px;
+    padding: 0 14px 14px;
+  }
+
+  .faq-answer p {
+    font-size: 0.92rem;
+  }
+
+  .contact-method {
+    padding: 20px 16px;
+  }
+
+  .contact-icon {
+    width: 56px;
+    height: 56px;
+    font-size: 1.6rem;
+  }
+
+  .contact-method h3 {
+    font-size: 1.5rem;
+  }
+
+  .final-cta-panel {
+    padding: 24px 16px;
+    border-radius: var(--radius-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .admission-status-content {
+    gap: 16px;
+  }
+
+  .status-title {
+    font-size: 1.5rem;
+  }
+
+  .status-session,
+  .status-dates {
+    font-size: 0.85rem;
+  }
+
+  .status-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .benefit-icon,
+  .fee-icon,
+  .doc-icon,
+  .requirement-icon,
+  .process-stage .stage-icon,
+  .contact-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 1.4rem;
+  }
+
+  .benefit-card,
+  .program-option,
+  .step,
+  .requirement-group,
+  .document-group,
+  .date-content,
+  .process-stage,
+  .fee-category,
+  .contact-method {
+    padding: 16px 12px;
+  }
+
+  .benefit-card h3,
+  .program-option h3,
+  .step-content h3,
+  .requirement-group h3,
+  .document-group h3,
+  .date-content h3,
+  .process-stage h3,
+  .fee-category h3,
+  .contact-method h3 {
+    font-size: 1.35rem;
+  }
+
+  .benefit-card p,
+  .step-content p,
+  .date-content p,
+  .process-stage p,
+  .fee-category p,
+  .requirement-group li,
+  .document-group li {
+    font-size: 0.9rem;
+  }
+
+  .section {
+    padding: 70px 0;
+  }
+
+  .section-heading {
+    margin-bottom: 30px;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(1.8rem, 2.5vw, 2.2rem);
+  }
+
+  .faq-question {
+    padding: 14px 12px;
+    font-size: 0.88rem;
+  }
+
+  .faq-item.open .faq-answer {
+    max-height: 700px;
+    padding: 0 12px 12px;
+  }
+
+  .final-cta-panel {
+    padding: 20px 12px;
+  }
+
+  .final-cta-panel h2 {
+    font-size: clamp(1.6rem, 2.2vw, 1.8rem);
+  }
+
+  .final-cta-actions {
+    gap: 10px;
+  }
+
+  .final-cta-actions .button {
+    font-size: 0.9rem;
+    padding: 0 16px;
+    min-height: 44px;
+  }
+}

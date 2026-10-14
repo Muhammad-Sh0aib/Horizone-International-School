@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Early Years",
+    "label": "Ages 3–5",
+    "description": "Play-based learning experiences that nurture confidence, curiosity and a love for discovery in a warm and encouraging environment.",
+    "icon": "fa-solid fa-seedling"
+  },
+  {
+    "title": "Primary School",
+    "label": "Grades 1–5",
+    "description": "Strong literacy, numeracy and inquiry-based learning that helps children build a confident foundation for future success.",
+    "icon": "fa-solid fa-book-open"
+  },
+  {
+    "title": "Middle School",
+    "label": "Grades 6–8",
+    "description": "A more advanced academic journey that develops independence, critical thinking and perseverance across core subjects.",
+    "icon": "fa-solid fa-brain"
+  },
+  {
+    "title": "Secondary School",
+    "label": "Grades 9–10",
+    "description": "A rigorous curriculum that balances academic depth, co-curricular participation and personal growth as students prepare for senior studies.",
+    "icon": "fa-solid fa-graduation-cap"
+  },
+  {
+    "title": "Higher Secondary",
+    "label": "Grades 11–12",
+    "description": "Focused pathways that support university readiness, leadership and future career planning through guided academic choices.",
+    "icon": "fa-solid fa-rocket"
+  }
+]

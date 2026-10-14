@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Horizon International School | Inspiring Minds. Empowering Futures.</title>
+  <meta name="description"
+    content="Discover Horizon International School, a modern learning community focused on academic excellence, character development, innovation and preparing students for the future." />
+  <meta property="og:title" content="Horizon International School | Inspiring Minds. Empowering Futures." />
+  <meta property="og:description"
+    content="A nurturing learning environment where curiosity becomes confidence, potential becomes achievement, and every student is prepared to make a meaningful difference in the world." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image"
+    content="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80" />
+  <meta name="theme-color" content="#0d2340" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwUEQpD4U4N8lR30fLJ+6qfM0fJk7gGz7U0mWQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+    integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+  <div class="loader" aria-hidden="true">
+    <div class="loader__ring"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand" aria-label="Horizon International School home page">
+        <span class="brand__mark">H</span>
+        <span>
+          <strong>Horizon</strong>
+          <small>International School</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <button class="nav-close" type="button" aria-label="Close navigation menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="nav-list">
+          <li class="nav-item active"><a href="index.html">Home</a></li>
+          <li class="nav-item has-dropdown">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="academics-menu">
+              Academics <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu" id="academics-menu">
+              <li><a href="academics.html">Academic Programs</a></li>
+              <li><a href="academics.html#curriculum">Curriculum</a></li>
+              <li><a href="academics.html#programs">Learning Stages</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="admissions-menu">
+              Admissions <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu" id="admissions-menu">
+              <li><a href="admissions.html">Admission Process</a></li>
+              <li><a href="admissions.html">Requirements</a></li>
+              <li><a href="admissions.html#application">Online Application</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="about-menu">
+              About <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu" id="about-menu">
+              <li><a href="about.html">About School</a></li>
+              <li><a href="faculty.html">Faculty</a></li>
+              <li><a href="campus.html">Campus</a></li>
+              <li><a href="events.html">Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a href="downloads.html">Downloads</a></li>
+        </ul>
+      </nav>
+
+      <a href="admissions.html" class="button button--primary nav-cta">Apply Now</a>
+
+      <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Welcome to Horizon International School">
+      <div class="hero__image" aria-hidden="true"></div>
+      <div class="hero__overlay"></div>
+      <div class="container hero__content-wrap">
+        <div class="hero__content" data-reveal="fade-up">
+          <p class="eyebrow">WELCOME TO HORIZON INTERNATIONAL SCHOOL</p>
+          <h1>Inspiring Minds. Empowering Futures.</h1>
+          <p class="hero__lead">
+            A nurturing learning environment where curiosity becomes confidence, potential becomes achievement,
+            and every student is prepared to make a meaningful difference in the world.
+          </p>
+          <div class="hero__actions">
+            <a href="about.html" class="button button--primary">Explore Our School</a>
+            <a href="admissions.html" class="button button--secondary">Begin Your Admission Journey</a>
+          </div>
+          <div class="admission-status" aria-label="Admissions open for the academic year 2026-27">
+            <span>Admissions Open for 2026–27</span>
+            <a href="admissions.html">Learn More <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <aside class="floating-card" data-reveal="fade-up" data-delay="100">
+          <div class="floating-card__top">
+            <span class="floating-card__label">Why families choose us</span>
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <h2>Future-ready education in a supportive community.</h2>
+          <ul>
+            <li><i class="fa-solid fa-check"></i> Academic excellence</li>
+            <li><i class="fa-solid fa-check"></i> Character development</li>
+            <li><i class="fa-solid fa-check"></i> Innovative learning</li>
+          </ul>
+        </aside>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="stats" aria-label="School statistics">
+      <div class="container stats__grid">
+        <article class="stat" data-reveal="fade-up">
+          <div class="stat__value" data-counter="25" data-suffix="+">0</div>
+          <p>Years of Educational Excellence</p>
+        </article>
+        <article class="stat" data-reveal="fade-up">
+          <div class="stat__value" data-counter="2500" data-suffix="+">0</div>
+          <p>Students</p>
+        </article>
+        <article class="stat" data-reveal="fade-up">
+          <div class="stat__value" data-counter="150" data-suffix="+">0</div>
+          <p>Dedicated Educators</p>
+        </article>
+        <article class="stat" data-reveal="fade-up">
+          <div class="stat__value" data-counter="12" data-suffix="">0</div>
+          <p>Academic &amp; Activity Programs</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container grid-two">
+        <div class="about__image-wrap" data-reveal="fade-in">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1200&q=80"
+            alt="Students learning together in a bright classroom" loading="lazy" />
+        </div>
+
+        <div class="about__content" data-reveal="fade-up">
+          <p class="eyebrow eyebrow--small">WHO WE ARE</p>
+          <h2>A School Built Around Every Student</h2>
+          <p>
+            At Horizon International School, education extends beyond the classroom. We combine strong academic
+            foundations with creativity, character development, technology and meaningful experiences that help
+            students discover their strengths and prepare confidently for the future.
+          </p>
+
+          <div class="feature-list">
+            <article class="mini-feature">
+              <h3>Academic Excellence</h3>
+              <p>Strong foundations and purposeful learning.</p>
+            </article>
+            <article class="mini-feature">
+              <h3>Character &amp; Confidence</h3>
+              <p>Helping students become responsible, resilient and compassionate individuals.</p>
+            </article>
+            <article class="mini-feature">
+              <h3>Future Readiness</h3>
+              <p>Developing the skills, curiosity and adaptability students need for tomorrow.</p>
+            </article>
+          </div>
+
+          <a href="about.html" class="button button--link">Discover Our Story <i class="fa-solid fa-arrow-right"
+              aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-choose section section--soft">
+      <div class="container">
+        <div class="section-heading" data-reveal="fade-up">
+          <p class="eyebrow eyebrow--small">WHY FAMILIES CHOOSE HORIZON</p>
+          <h2>Why Families Choose Horizon</h2>
+          <p>
+            A school experience designed to help students learn with purpose, grow with confidence and thrive in a
+            changing world.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card" data-reveal="fade-up">
+            <div class="feature-card__icon"><i class="fa-solid fa-book-open-reader"></i></div>
+            <h3>Academic Excellence</h3>
+            <p>A structured learning environment focused on strong academic foundations and continuous growth.</p>
+          </article>
+          <article class="feature-card" data-reveal="fade-up">
+            <div class="feature-card__icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            <h3>Inspiring Educators</h3>
+            <p>Dedicated teachers who encourage curiosity, critical thinking and individual potential.</p>
+          </article>
+          <article class="feature-card" data-reveal="fade-up">
+            <div class="feature-card__icon"><i class="fa-solid fa-shield-heart"></i></div>
+            <h3>Safe &amp; Supportive Environment</h3>
+            <p>A caring school community where students can learn, participate and express themselves confidently.</p>
+          </article>
+          <article class="feature-card" data-reveal="fade-up">
+            <div class="feature-card__icon"><i class="fa-solid fa-laptop"></i></div>
+            <h3>Modern Learning</h3>
+            <p>Technology, collaboration and practical experiences integrated into everyday learning.</p>
+          </article>
+          <article class="feature-card" data-reveal="fade-up">
+            <div class="feature-card__icon"><i class="fa-solid fa-people-group"></i></div>
+            <h3>Character Development</h3>
+            <p>Building responsibility, leadership, respect and resilience alongside academic achievement.</p>
+          </article>
+          <article class="feature-card" data-reveal="fade-up">
+            <div class="feature-card__icon"><i class="fa-solid fa-volleyball-ball"></i></div>
+            <h3>Beyond the Classroom</h3>
+            <p>Sports, creative activities, clubs and experiences that encourage students to explore their interests.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="programs section">
+      <div class="container">
+        <div class="section-heading" data-reveal="fade-up">
+          <p class="eyebrow eyebrow--small">OUR ACADEMIC JOURNEY</p>
+          <h2>Learning Designed for Every Stage</h2>
+          <p>
+            From the early years through secondary education, our programs provide age-appropriate learning
+            experiences that develop knowledge, confidence and independence.
+          </p>
+        </div>
+        <div id="programs-grid" class="program-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="campus section section--soft" id="campus">
+      <div class="container campus__layout">
+        <div class="campus__content" data-reveal="fade-up">
+          <p class="eyebrow eyebrow--small">CAMPUS EXPERIENCE</p>
+          <h2>More Than a Classroom</h2>
+          <p>
+            Our learning environment is designed to encourage exploration, collaboration and discovery—from modern
+            classrooms and laboratories to spaces where students can develop their interests beyond academics.
+          </p>
+          <ul class="facility-list">
+            <li><i class="fa-solid fa-check"></i> Modern Classrooms</li>
+            <li><i class="fa-solid fa-check"></i> Science Laboratories</li>
+            <li><i class="fa-solid fa-check"></i> Technology &amp; Computer Labs</li>
+            <li><i class="fa-solid fa-check"></i> Library &amp; Learning Spaces</li>
+            <li><i class="fa-solid fa-check"></i> Sports Facilities</li>
+            <li><i class="fa-solid fa-check"></i> Creative Activity Areas</li>
+          </ul>
+          <a href="campus.html" class="button button--link">Explore Our Campus <i class="fa-solid fa-arrow-right"
+              aria-hidden="true"></i></a>
+        </div>
+
+        <div class="campus__gallery" data-reveal="fade-in">
+          <div class="campus__feature-image">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+              alt="Students collaborating in a modern school setting" loading="lazy" />
+          </div>
+          <div class="campus__stack">
+            <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=900&q=80"
+              alt="Science laboratory with students learning" loading="lazy" />
+            <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80"
+              alt="School library and learning spaces" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="student-life section" id="student-life">
+      <div class="container">
+        <div class="section-heading section-heading--split" data-reveal="fade-up">
+          <div>
+            <p class="eyebrow eyebrow--small">LEARNING BEYOND THE CLASSROOM</p>
+            <h2>Learning Beyond the Classroom</h2>
+          </div>
+          <p>
+            Students grow through experiences that challenge their thinking, strengthen teamwork and help them
+            discover passions beyond their academic studies.
+          </p>
+        </div>
+
+        <div class="life-grid">
+          <article class="life-item large" data-reveal="fade-up">
+            <img src="https://images.unsplash.com/photo-1541534401786-2077eed87a74?auto=format&fit=crop&w=1200&q=80"
+              alt="Students playing sports on a school field" loading="lazy" />
+            <div class="life-item__content">
+              <span>Sports</span>
+              <h3>Building confidence through teamwork and movement.</h3>
+            </div>
+          </article>
+          <article class="life-item" data-reveal="fade-up">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80"
+              alt="Art and creativity workshop in school" loading="lazy" />
+            <div class="life-item__content">
+              <span>Arts &amp; Creativity</span>
+              <h3>Encouraging imagination and expression.</h3>
+            </div>
+          </article>
+          <article class="life-item" data-reveal="fade-up">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80"
+              alt="Students engaged in science and technology project work" loading="lazy" />
+            <div class="life-item__content">
+              <span>Science &amp; Technology</span>
+              <h3>Exploring ideas through innovation and inquiry.</h3>
+            </div>
+          </article>
+          <article class="life-item" data-reveal="fade-up">
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80"
+              alt="Young leaders participating in school events and presentations" loading="lazy" />
+            <div class="life-item__content">
+              <span>Leadership</span>
+              <h3>Developing voice, responsibility and initiative.</h3>
+            </div>
+          </article>
+          <article class="life-item" data-reveal="fade-up">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80"
+              alt="Students collaborating in a club activity" loading="lazy" />
+            <div class="life-item__content">
+              <span>Clubs &amp; Societies</span>
+              <h3>Helping students discover their interests and strengths.</h3>
+            </div>
+          </article>
+          <article class="life-item large" data-reveal="fade-up">
+            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80"
+              alt="Students exploring educational field trip opportunities" loading="lazy" />
+            <div class="life-item__content">
+              <span>Educational Trips</span>
+              <h3>Learning through real experiences beyond the classroom.</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="admissions-cta section" aria-label="Admission conversion section">
+      <div class="container admissions-cta__inner" data-reveal="fade-up">
+        <div>
+          <p class="eyebrow eyebrow--small">YOUR CHILD'S FUTURE STARTS HERE</p>
+          <h2>Your Child's Next Chapter Starts Here</h2>
+          <p>
+            Discover a school community where students are encouraged to ask questions, explore possibilities and
+            build the confidence to shape their future.
+          </p>
+        </div>
+        <div class="admissions-cta__actions">
+          <a href="admissions.html" class="button button--primary">Apply for Admission</a>
+          <a href="contact.html" class="button button--secondary button--light">Talk to Admissions</a>
+        </div>
+        <p class="admissions-cta__status">Admissions Open for Academic Session 2026–27</p>
+      </div>
+    </section>
+
+    <section class="news section" id="news">
+      <div class="container">
+        <div class="section-heading" data-reveal="fade-up">
+          <p class="eyebrow eyebrow--small">COMMUNITY NEWS</p>
+          <h2>What's Happening at Horizon</h2>
+        </div>
+        <div id="events-grid" class="news-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="gallery section section--soft" id="gallery">
+      <div class="container">
+        <div class="section-heading section-heading--split" data-reveal="fade-up">
+          <div>
+            <p class="eyebrow eyebrow--small">LIFE AT HORIZON</p>
+            <h2>Life at Horizon</h2>
+          </div>
+          <p>
+            A glimpse into the classrooms, campus, activities and experiences that make our school community unique.
+          </p>
+        </div>
+
+        <div id="gallery-grid" class="gallery-grid" aria-live="polite"></div>
+        <div class="gallery__footer" data-reveal="fade-up">
+          <a href="gallery.html" class="button button--link">View Full Gallery <i class="fa-solid fa-arrow-right"
+              aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="parent-info section">
+      <div class="container">
+        <div class="section-heading" data-reveal="fade-up">
+          <p class="eyebrow eyebrow--small">PARENT RESOURCES</p>
+          <h2>Everything Parents Need, In One Place</h2>
+        </div>
+
+        <div class="resource-center" data-reveal="fade-up">
+          <article class="resource-item">
+            <div class="resource-item__icon"><i class="fa-regular fa-calendar-days"></i></div>
+            <h3>Academic Calendar</h3>
+          </article>
+          <article class="resource-item">
+            <div class="resource-item__icon"><i class="fa-regular fa-file-lines"></i></div>
+            <h3>Admission Information</h3>
+          </article>
+          <article class="resource-item">
+            <div class="resource-item__icon"><i class="fa-solid fa-wallet"></i></div>
+            <h3>Fee Information</h3>
+          </article>
+          <article class="resource-item">
+            <div class="resource-item__icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>School Policies</h3>
+          </article>
+          <article class="resource-item">
+            <div class="resource-item__icon"><i class="fa-solid fa-download"></i></div>
+            <h3>Downloads</h3>
+          </article>
+          <article class="resource-item resource-item--accent">
+            <div class="resource-item__icon"><i class="fa-solid fa-phone-volume"></i></div>
+            <h3>Contact Admissions</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section section--accent" aria-label="Final call to action">
+      <div class="container final-cta__inner" data-reveal="fade-up">
+        <div class="final-cta__content">
+          <p class="eyebrow eyebrow--small">BEGIN YOUR JOURNEY</p>
+          <h2>Ready to Begin the Journey?</h2>
+          <p>
+            Connect with our admissions team and discover how Horizon International School can help your child learn,
+            grow and thrive.
+          </p>
+        </div>
+
+        <div class="final-cta__actions">
+          <a href="admissions.html" class="button button--primary">Apply Online</a>
+          <a href="contact.html" class="button button--secondary button--light">Contact Admissions</a>
+        </div>
+
+        <div class="final-cta__contact">
+          <div>
+            <span>Admissions Office</span>
+            <a href="tel:+922134567890">+92 21 3456 7890</a>
+          </div>
+          <a href="mailto:admissions@horizoninternationalschool.edu">admissions@horizoninternationalschool.edu</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand brand--footer">
+          <span class="brand__mark">H</span>
+          <span>
+            <strong>Horizon</strong>
+            <small>International School</small>
+          </span>
+        </div>
+        <p>Inspiring Minds. Empowering Futures.</p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="faculty.html">Faculty</a></li>
+          <li><a href="campus.html">Campus</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="downloads.html">Downloads</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Admissions</h3>
+        <ul>
+          <li><a href="admissions.html">Admission Process</a></li>
+          <li><a href="admissions.html">Requirements</a></li>
+          <li><a href="admissions.html">Fee Structure</a></li>
+          <li><a href="admissions.html#application">Online Application</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <ul class="contact-list">
+          <li>Karachi, Pakistan</li>
+          <li><a href="tel:+922134567890">+92 21 3456 7890</a></li>
+          <li><a href="mailto:admissions@horizoninternationalschool.edu">admissions@horizoninternationalschool.edu</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Social Media</h3>
+        <ul class="social-links">
+          <li><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+          <li><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+          <li><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
+          <li><a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p>© 2026 Horizon International School. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms &amp; Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" type="button" aria-label="Close image preview">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <img src="" alt="" />
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

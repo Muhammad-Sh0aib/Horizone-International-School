@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events | Horizon International School</title>
+    <meta
+      name="description"
+      content="Discover upcoming events, school activities, academic showcases, sports, arts, workshops and community experiences at Horizon International School."
+    />
+    <meta property="og:title" content="Events | Horizon International School" />
+    <meta
+      property="og:description"
+      content="Moments that bring our community together. Explore upcoming school activities, academic showcases, sports, performing arts and workshops."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=82" />
+    <meta name="theme-color" content="#0d2340" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+      integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/events.css" />
+  </head>
+  <body class="events-page">
+    <!-- Page Preloader -->
+    <div class="loader" aria-hidden="true">
+      <div class="loader__ring"></div>
+    </div>
+
+    <!-- Site Header & Navigation -->
+    <header class="site-header">
+      <div class="container nav-container">
+        <a href="index.html" class="brand" aria-label="Horizon International School home page">
+          <span class="brand__mark">H</span>
+          <span>
+            <strong>Horizon</strong>
+            <small>International School</small>
+          </span>
+        </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <button class="nav-close" type="button" aria-label="Close navigation menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item has-dropdown">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="academics-menu">
+              Academics <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu" id="academics-menu">
+              <li><a href="academics.html">Academic Programs</a></li>
+              <li><a href="academics.html#curriculum">Curriculum</a></li>
+              <li><a href="academics.html#programs">Learning Stages</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="admissions-menu">
+              Admissions <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu" id="admissions-menu">
+              <li><a href="admissions.html">Admission Process</a></li>
+              <li><a href="admissions.html">Requirements</a></li>
+              <li><a href="admissions.html#application">Online Application</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="about-menu">
+              About <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+            </button>
+            <ul class="dropdown-menu" id="about-menu">
+              <li><a href="about.html">About School</a></li>
+              <li><a href="faculty.html">Faculty</a></li>
+              <li><a href="campus.html">Campus</a></li>
+              <li><a href="events.html" aria-current="page">Events</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="contact.html">Contact</a></li>
+          <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+          <li class="nav-item"><a href="downloads.html">Downloads</a></li>
+        </ul>
+      </nav>
+
+        <a href="admissions.html" class="button button--primary nav-cta">Apply Now</a>
+
+        <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- =================================================================
+           1. HERO SECTION
+           ================================================================= -->
+      <section class="page-hero events-hero" aria-label="Events at Horizon International School">
+        <div class="page-hero__media" aria-hidden="true"></div>
+        <div class="page-hero__overlay"></div>
+
+        <div class="container page-hero__content" data-reveal="fade-up">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span aria-current="page">Events</span>
+          </nav>
+
+          <p class="eyebrow">SCHOOL LIFE</p>
+          <h1>Moments That Bring Our Community Together</h1>
+          <p>
+            School life extends far beyond the classroom through academic showcases, sports competitions, arts performances, educational workshops, student-led initiatives, and memorable community experiences that build character, courage, and lifelong bonds.
+          </p>
+
+          <div class="hero__actions page-hero__actions">
+            <a href="#upcoming-events" class="button button--primary">
+              <i class="fa-solid fa-calendar-day" aria-hidden="true"></i> Explore Upcoming Events
+            </a>
+            <a href="#school-calendar" class="button button--secondary">
+              <i class="fa-solid fa-calendar-week" aria-hidden="true"></i> View School Calendar
+            </a>
+          </div>
+
+          <aside class="events-hero-note">
+            <span><i class="fa-solid fa-sparkles" aria-hidden="true"></i></span>
+            <div>
+              <strong>Learning Beyond the Classroom</strong>
+              <p>“Experiences that students remember long after the event ends.”</p>
+            </div>
+          </aside>
+        </div>
+
+        <a class="events-hero-scroll" href="#events-intro" aria-label="Scroll to events introduction">
+          <i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <!-- =================================================================
+           2. EVENTS INTRODUCTION (EDITORIAL TWO-COLUMN)
+           ================================================================= -->
+      <section class="events-intro section" id="events-intro">
+        <div class="container events-intro__layout">
+          <div class="events-intro__media" data-reveal="fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=85"
+              alt="Students collaborating joyfully during an interactive school showcase"
+              loading="lazy"
+            />
+            <div class="events-intro__caption">
+              <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+              <span>Shared experiences build collaborative courage, pride, and belonging.</span>
+            </div>
+          </div>
+
+          <div class="events-intro__copy" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">LIFE AT HORIZON</p>
+            <h2>Every Event Has a Purpose</h2>
+            <p>
+              At Horizon International School, events are not merely dates on a calendar. Each assembly, exhibition, tournament, and festival is intentionally designed to nurture vital life skills: learning, collaboration, creativity, leadership, celebration, confidence, and community connection.
+            </p>
+            <p>
+              Whether presenting original scientific inquiry, performing under auditorium stage lights, competing on athletic fields, or welcoming families to campus, students take ownership of experiences that shape their character and voice.
+            </p>
+
+            <div class="events-intro__highlights">
+              <article class="events-highlight-card">
+                <span class="events-highlight-icon">
+                  <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
+                </span>
+                <div>
+                  <h3>Learn</h3>
+                  <p>Experiences that connect classroom learning with the wider world, practical inquiry, and authentic audiences.</p>
+                </div>
+              </article>
+
+              <article class="events-highlight-card">
+                <span class="events-highlight-icon">
+                  <i class="fa-solid fa-hands-clapping" aria-hidden="true"></i>
+                </span>
+                <div>
+                  <h3>Participate</h3>
+                  <p>Opportunities for students to contribute, perform, compete, create, and step forward as young leaders.</p>
+                </div>
+              </article>
+
+              <article class="events-highlight-card">
+                <span class="events-highlight-icon">
+                  <i class="fa-solid fa-people-roof" aria-hidden="true"></i>
+                </span>
+                <div>
+                  <h3>Connect</h3>
+                  <p>Meaningful moments that bring students, dedicated educators, families, and alumni together in shared spirit.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           3. FEATURED UPCOMING EVENT
+           ================================================================= -->
+      <section class="featured-event section section--soft" id="featured-event" aria-label="Featured upcoming school event">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">FEATURED EVENT</p>
+            <h2>What's Happening Next</h2>
+            <p>Highlighting our flagship upcoming gathering celebrating student imagination, practical learning, and creative achievement.</p>
+          </div>
+
+          <article class="featured-event__card" data-reveal="fade-up">
+            <div class="featured-event__media">
+              <img
+                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=85"
+                alt="Students presenting ideas and discussing creative prototypes with visitors"
+                loading="lazy"
+              />
+              <div class="featured-event__badges">
+                <span class="badge badge--accent"><i class="fa-solid fa-star" aria-hidden="true"></i> Featured Event</span>
+                <span class="badge badge--status-open"><i class="fa-solid fa-door-open" aria-hidden="true"></i> Registration Open</span>
+              </div>
+            </div>
+
+            <div class="featured-event__content">
+              <span class="featured-event__category">Academic &amp; Creative</span>
+              <h3 class="featured-event__title">Horizon Learning &amp; Creativity Showcase</h3>
+
+              <ul class="featured-event__meta-list">
+                <li>
+                  <i class="fa-regular fa-calendar" aria-hidden="true"></i>
+                  <span><strong>Date:</strong> Saturday, October 17, 2026</span>
+                </li>
+                <li>
+                  <i class="fa-regular fa-clock" aria-hidden="true"></i>
+                  <span><strong>Time:</strong> 9:00 AM – 1:00 PM</span>
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                  <span><strong>Location:</strong> Horizon International School Campus</span>
+                </li>
+              </ul>
+
+              <p class="featured-event__description">
+                “A school-wide showcase celebrating student projects, creative work, practical learning, and the many ways students turn ideas into action.”
+              </p>
+
+              <div class="featured-event__actions">
+                <button
+                  type="button"
+                  class="button button--primary"
+                  data-event-modal-trigger="learning-creativity-showcase-2026"
+                >
+                  <i class="fa-solid fa-circle-info" aria-hidden="true"></i> View Event Details
+                </button>
+                <button
+                  type="button"
+                  class="button button--secondary"
+                  data-add-to-calendar="learning-creativity-showcase-2026"
+                >
+                  <i class="fa-solid fa-calendar-plus" aria-hidden="true"></i> Add to Calendar
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           4. UPCOMING EVENTS DISCOVERY + 5. FILTERING + 6. SEARCH
+           ================================================================= -->
+      <section class="upcoming-events section" id="upcoming-events" aria-label="Upcoming events discovery and schedule">
+        <div class="container">
+          <div class="section-heading section-heading--split" data-reveal="fade-up">
+            <div>
+              <p class="eyebrow eyebrow--small">UPCOMING EVENTS</p>
+              <h2>What's Coming Up</h2>
+            </div>
+            <p>
+              Explore our calendar of upcoming school activities, academic showcases, athletic meets, arts performances, workshops, and family gatherings. Filter or search to discover what interests you.
+            </p>
+          </div>
+
+          <!-- Toolbar: Search & Category Filter Bar -->
+          <div class="events-toolbar" data-reveal="fade-up">
+            <div class="events-search-box">
+              <label for="events-search-input">Search events</label>
+              <div class="events-search-input-wrap">
+                <i class="fa-solid fa-magnifying-glass events-search-icon" aria-hidden="true"></i>
+                <input
+                  type="search"
+                  id="events-search-input"
+                  class="events-search-input"
+                  placeholder="Search events by title, category or keyword..."
+                  autocomplete="off"
+                />
+                <button
+                  type="button"
+                  id="events-search-clear"
+                  class="events-search-clear"
+                  aria-label="Clear search input"
+                  hidden
+                >
+                  <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Category Filter Pills -->
+            <div class="events-filter-scroll" role="group" aria-label="Filter events by category">
+              <button class="events-filter-btn is-active" type="button" data-event-category="all" aria-pressed="true">
+                All Events
+              </button>
+              <button class="events-filter-btn" type="button" data-event-category="academic" aria-pressed="false">
+                Academic
+              </button>
+              <button class="events-filter-btn" type="button" data-event-category="sports" aria-pressed="false">
+                Sports
+              </button>
+              <button class="events-filter-btn" type="button" data-event-category="arts-culture" aria-pressed="false">
+                Arts &amp; Culture
+              </button>
+              <button class="events-filter-btn" type="button" data-event-category="student-life" aria-pressed="false">
+                Student Life
+              </button>
+              <button class="events-filter-btn" type="button" data-event-category="community" aria-pressed="false">
+                Community
+              </button>
+              <button class="events-filter-btn" type="button" data-event-category="workshops" aria-pressed="false">
+                Workshops
+              </button>
+              <button class="events-filter-btn" type="button" data-event-category="parent-events" aria-pressed="false">
+                Parent Events
+              </button>
+              <button class="events-filter-btn" type="button" data-event-category="admissions" aria-pressed="false">
+                Admissions
+              </button>
+            </div>
+          </div>
+
+          <!-- Dynamic Live Status Header -->
+          <div class="events-results-header">
+            <p class="events-status" id="events-status" role="status" aria-live="polite">
+              Loading upcoming events…
+            </p>
+          </div>
+
+          <!-- Event Grid (Populated dynamically from JSON) -->
+          <div class="events-grid" id="upcoming-events-grid" aria-live="polite">
+            <!-- Professional Skeleton Loading State -->
+            <div class="event-skeleton" aria-hidden="true">
+              <div class="skeleton-media"></div>
+              <div class="skeleton-content">
+                <div class="skeleton-line skeleton-line--short"></div>
+                <div class="skeleton-line skeleton-line--title"></div>
+                <div class="skeleton-line skeleton-line--text"></div>
+                <div class="skeleton-line skeleton-line--text"></div>
+              </div>
+            </div>
+            <div class="event-skeleton" aria-hidden="true">
+              <div class="skeleton-media"></div>
+              <div class="skeleton-content">
+                <div class="skeleton-line skeleton-line--short"></div>
+                <div class="skeleton-line skeleton-line--title"></div>
+                <div class="skeleton-line skeleton-line--text"></div>
+                <div class="skeleton-line skeleton-line--text"></div>
+              </div>
+            </div>
+            <div class="event-skeleton" aria-hidden="true">
+              <div class="skeleton-media"></div>
+              <div class="skeleton-content">
+                <div class="skeleton-line skeleton-line--short"></div>
+                <div class="skeleton-line skeleton-line--title"></div>
+                <div class="skeleton-line skeleton-line--text"></div>
+                <div class="skeleton-line skeleton-line--text"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Empty State (No Search Results) -->
+          <div class="events-empty" id="events-empty" hidden>
+            <div class="events-empty__icon" aria-hidden="true">
+              <i class="fa-solid fa-calendar-xmark"></i>
+            </div>
+            <h3>No Events Found</h3>
+            <p>We couldn't find any events matching your search or selected filter.</p>
+            <button type="button" class="button button--primary" id="clear-filters-btn">
+              Clear Search &amp; Filters
+            </button>
+          </div>
+
+          <!-- Error State (If events.json fails) -->
+          <div class="events-error" id="events-error" hidden>
+            <div class="events-error__icon" aria-hidden="true">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h3>Events Are Temporarily Unavailable</h3>
+            <p>
+              We're unable to load the event schedule right now. Please check again shortly or contact the school for current information.
+            </p>
+            <a href="mailto:admissions@horizoninternationalschool.edu" class="button button--primary">
+              Contact the School
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           8. CALENDAR VIEW (INTERACTIVE MONTHLY SCHEDULE)
+           ================================================================= -->
+      <section class="events-calendar-section section section--soft" id="school-calendar" aria-label="Interactive school event calendar">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">EVENT CALENDAR</p>
+            <h2>Plan Ahead</h2>
+            <p>Browse by month to see scheduled gatherings, academic milestones, and athletic activities across our campus.</p>
+          </div>
+
+          <div class="calendar-layout" data-reveal="fade-up">
+            <!-- Calendar Grid Card -->
+            <div class="calendar-card">
+              <div class="calendar-header">
+                <h3 class="calendar-month-title" id="calendar-month-title">October 2026</h3>
+                <div class="calendar-nav-buttons">
+                  <button type="button" class="calendar-nav-btn calendar-today-btn" id="calendar-today-btn">
+                    Today
+                  </button>
+                  <button type="button" class="calendar-nav-btn" id="calendar-prev-btn" aria-label="Previous month">
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                  </button>
+                  <button type="button" class="calendar-nav-btn" id="calendar-next-btn" aria-label="Next month">
+                    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="calendar-weekdays" aria-hidden="true">
+                <span>Mon</span>
+                <span>Tue</span>
+                <span>Wed</span>
+                <span>Thu</span>
+                <span>Fri</span>
+                <span>Sat</span>
+                <span>Sun</span>
+              </div>
+
+              <div class="calendar-days-grid" id="calendar-days-grid" role="grid" aria-label="Event Calendar Month Days">
+                <!-- Days rendered dynamically -->
+              </div>
+            </div>
+
+            <!-- Selected Date Events Sidebar -->
+            <aside class="calendar-events-panel" aria-label="Events for selected calendar date">
+              <div class="calendar-panel-header">
+                <h3 class="calendar-panel-date" id="calendar-panel-date">October 17, 2026</h3>
+                <p class="calendar-panel-count" id="calendar-panel-count">1 event on this date</p>
+              </div>
+
+              <div class="calendar-events-list" id="calendar-events-list">
+                <!-- Mini event cards rendered dynamically -->
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           9. EVENT CATEGORIES SECTION
+           ================================================================= -->
+      <section class="event-categories-section section" id="categories" aria-label="Explore events by category">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">LIFE AT HORIZON</p>
+            <h2>Something for Every Part of School Life</h2>
+            <p>Our comprehensive events programme ensures every learner finds avenues to explore passions, share discoveries, and build community.</p>
+          </div>
+
+          <div class="event-categories-grid">
+            <article class="category-card" data-category-filter-target="academic" data-reveal="fade-up">
+              <span class="category-card__icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></span>
+              <h3>Academic Events</h3>
+              <p>Exhibitions, science inquiry fairs, mathematics challenges, learning showcases, and academic presentations that celebrate intellectual curiosity.</p>
+              <span class="category-card__action">Explore Academic Events <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </article>
+
+            <article class="category-card" data-category-filter-target="sports" data-reveal="fade-up">
+              <span class="category-card__icon"><i class="fa-solid fa-medal" aria-hidden="true"></i></span>
+              <h3>Sports &amp; Athletics</h3>
+              <p>Inter-house championships, track and field meets, gymnastics, team tournaments, and fitness days that champion teamwork and perseverance.</p>
+              <span class="category-card__action">Explore Sports Events <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </article>
+
+            <article class="category-card" data-category-filter-target="arts-culture" data-reveal="fade-up">
+              <span class="category-card__icon"><i class="fa-solid fa-masks-theater" aria-hidden="true"></i></span>
+              <h3>Arts &amp; Culture</h3>
+              <p>Auditorium musical recitals, drama productions, choral evenings, gallery art exhibitions, and cultural heritage celebrations.</p>
+              <span class="category-card__action">Explore Arts Events <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </article>
+
+            <article class="category-card" data-category-filter-target="student-life" data-reveal="fade-up">
+              <span class="category-card__icon"><i class="fa-solid fa-users-rays" aria-hidden="true"></i></span>
+              <h3>Student Life</h3>
+              <p>Student council assemblies, leadership summits, club activities, house socials, and student-led initiatives cultivating character.</p>
+              <span class="category-card__action">Explore Student Life <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </article>
+
+            <article class="category-card" data-category-filter-target="community" data-reveal="fade-up">
+              <span class="category-card__icon"><i class="fa-solid fa-hand-holding-heart" aria-hidden="true"></i></span>
+              <h3>Community &amp; Service</h3>
+              <p>Eco-Action planting days, charity drives, friendship bazaars, and collaborative service projects connecting school and society.</p>
+              <span class="category-card__action">Explore Community Events <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </article>
+
+            <article class="category-card" data-category-filter-target="workshops" data-reveal="fade-up">
+              <span class="category-card__icon"><i class="fa-solid fa-compass-drafting" aria-hidden="true"></i></span>
+              <h3>Workshops &amp; Skills</h3>
+              <p>Robotics labs, literature forums, digital design masterclasses, and hands-on skill-building sessions guided by faculty and mentors.</p>
+              <span class="category-card__action">Explore Workshops <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           10. ANNUAL SCHOOL HIGHLIGHTS (SEASONAL TIMELINE)
+           ================================================================= -->
+      <section class="school-year-timeline-section section section--soft" id="annual-highlights" aria-label="Annual school year timeline">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">ACROSS THE YEAR</p>
+            <h2>A School Year Full of Experiences</h2>
+            <p>From welcoming first days to celebratory year-end milestones, each academic term brings a purposeful rhythm of events and shared discoveries.</p>
+          </div>
+
+          <div class="seasonal-timeline">
+            <article class="timeline-card" data-reveal="fade-up">
+              <span class="timeline-term-badge">
+                <i class="fa-solid fa-leaf" aria-hidden="true"></i> Term 1 (Autumn)
+              </span>
+              <h3>Beginnings &amp; Discovery</h3>
+              <p class="timeline-season-lead">Setting foundations, building friendships, and igniting curiosity.</p>
+              <p>
+                Welcome orientations, new student inductions, student club sign-ups, introductory academic showcases, foundational house gatherings, and our annual Learning &amp; Creativity Showcase.
+              </p>
+            </article>
+
+            <article class="timeline-card" data-reveal="fade-up">
+              <span class="timeline-term-badge">
+                <i class="fa-solid fa-snowflake" aria-hidden="true"></i> Term 2 (Winter)
+              </span>
+              <h3>Inquiry &amp; Expression</h3>
+              <p class="timeline-season-lead">Deepening scholarship, collaborative teamwork, and competition.</p>
+              <p>
+                Annual Athletics Championship, STEM and robotics workshops, winter musical concerts, inter-house debates, mathematics challenges, and mid-year parent-teacher academic dialogues.
+              </p>
+            </article>
+
+            <article class="timeline-card" data-reveal="fade-up">
+              <span class="timeline-term-badge">
+                <i class="fa-solid fa-sun" aria-hidden="true"></i> Term 3 (Spring &amp; Summer)
+              </span>
+              <h3>Achievement &amp; Celebration</h3>
+              <p class="timeline-season-lead">Reflecting on growth, sharing creations, and celebrating progress.</p>
+              <p>
+                Spring visual arts exhibitions, literature forums, theatre and performing arts evenings, community service eco-days, transition ceremonies, and year-end commendation assemblies.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           11. SIGNATURE SCHOOL EXPERIENCES
+           ================================================================= -->
+      <section class="signature-experiences section" id="signature-experiences" aria-label="Signature school traditions and experiences">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">EXPERIENCES TO CHERISH</p>
+            <h2>Experiences Students Look Forward To</h2>
+            <p>Core recurring school experiences that define student life at Horizon, fostering leadership, creativity, and camaraderie.</p>
+          </div>
+
+          <div class="signature-grid">
+            <article class="signature-card" data-reveal="fade-up">
+              <div class="signature-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80"
+                  alt="Student showcase exhibition table"
+                  loading="lazy"
+                />
+              </div>
+              <div class="signature-card__body">
+                <h3>Student Showcase</h3>
+                <p>Students share original projects, ideas, creative work, and inquiry-led learning experiences with peers, faculty, and visiting families.</p>
+              </div>
+            </article>
+
+            <article class="signature-card" data-reveal="fade-up">
+              <div class="signature-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1541534401786-2077eed87a74?auto=format&fit=crop&w=800&q=80"
+                  alt="Students competing on the athletic running track"
+                  loading="lazy"
+                />
+              </div>
+              <div class="signature-card__body">
+                <h3>Sports Day</h3>
+                <p>A high-energy day focused on active participation, house sportsmanship, athletic excellence, and shared school pride.</p>
+              </div>
+            </article>
+
+            <article class="signature-card" data-reveal="fade-up">
+              <div class="signature-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1577495508048-b635879837f1?auto=format&fit=crop&w=800&q=80"
+                  alt="Dramatic performance in the auditorium"
+                  loading="lazy"
+                />
+              </div>
+              <div class="signature-card__body">
+                <h3>Arts &amp; Performance</h3>
+                <p>Dynamic opportunities for musicians, actors, dancers, and visual artists to perform, exhibit, and express creative courage.</p>
+              </div>
+            </article>
+
+            <article class="signature-card" data-reveal="fade-up">
+              <div class="signature-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80"
+                  alt="Students working hands-on in the technology workshop"
+                  loading="lazy"
+                />
+              </div>
+              <div class="signature-card__body">
+                <h3>Learning Workshops</h3>
+                <p>Interactive sessions that connect learners with new technologies, maker projects, scientific methods, and practical creative skills.</p>
+              </div>
+            </article>
+
+            <article class="signature-card" data-reveal="fade-up">
+              <div class="signature-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=800&q=80"
+                  alt="Families and teachers gathered on the campus lawn"
+                  loading="lazy"
+                />
+              </div>
+              <div class="signature-card__body">
+                <h3>Community Gatherings</h3>
+                <p>Warm, inclusive events that bring students, educators, parents, and alumni together in a spirit of friendship and mutual support.</p>
+              </div>
+            </article>
+
+            <article class="signature-card" data-reveal="fade-up">
+              <div class="signature-card__media">
+                <img
+                  src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80"
+                  alt="Graduation and awards celebration"
+                  loading="lazy"
+                />
+              </div>
+              <div class="signature-card__body">
+                <h3>Celebration Events</h3>
+                <p>Milestone assemblies, academic honor roll ceremonies, and year-end celebrations honoring student dedication and personal growth.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           12. PAST EVENTS / EVENT ARCHIVE
+           ================================================================= -->
+      <section class="past-events section section--soft" id="past-events" aria-label="Event archive and previous moments">
+        <div class="container">
+          <div class="section-heading section-heading--split" data-reveal="fade-up">
+            <div>
+              <p class="eyebrow eyebrow--small">EVENT ARCHIVE</p>
+              <h2>Look Back at Earlier Moments</h2>
+            </div>
+            <p>
+              Review highlights, project recaps, and photos from previous school gatherings, tournaments, and celebrations held across our campus.
+            </p>
+          </div>
+
+          <!-- Archive Year Filter Buttons -->
+          <div class="archive-controls" data-reveal="fade-up">
+            <div class="archive-years" id="archive-years" role="group" aria-label="Filter archived events by year">
+              <!-- Dynamically populated from JSON years -->
+            </div>
+          </div>
+
+          <!-- Archive Grid -->
+          <div class="archive-grid" id="archive-grid" aria-live="polite">
+            <!-- Populated dynamically from JSON past events -->
+          </div>
+
+          <div class="events-empty" id="archive-empty" hidden>
+            <div class="events-empty__icon" aria-hidden="true">
+              <i class="fa-solid fa-box-archive"></i>
+            </div>
+            <h3>No Archived Events</h3>
+            <p>Earlier event information will appear here when available.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           13. EVENT PHOTOS (MASONRY/ASYMMETRICAL GALLERY & LIGHTBOX)
+           ================================================================= -->
+      <section class="events-gallery section" id="event-gallery" aria-label="Event photo gallery">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">CAPTURED MOMENTS</p>
+            <h2>Moments From Around Our School</h2>
+            <p>A visual record of energy, inquiry, teamwork, and artistic expression across our vibrant campus community.</p>
+          </div>
+
+          <div class="gallery-toolbar" data-reveal="fade-up">
+            <button class="gallery-filter-btn is-active" type="button" data-gallery-category="all" aria-pressed="true">
+              All Moments
+            </button>
+            <button class="gallery-filter-btn" type="button" data-gallery-category="activities" aria-pressed="false">
+              Activities
+            </button>
+            <button class="gallery-filter-btn" type="button" data-gallery-category="sports" aria-pressed="false">
+              Sports
+            </button>
+            <button class="gallery-filter-btn" type="button" data-gallery-category="arts" aria-pressed="false">
+              Arts
+            </button>
+            <button class="gallery-filter-btn" type="button" data-gallery-category="workshops" aria-pressed="false">
+              Workshops
+            </button>
+            <button class="gallery-filter-btn" type="button" data-gallery-category="community" aria-pressed="false">
+              Community
+            </button>
+          </div>
+
+          <div class="event-gallery-grid" id="events-gallery-grid" aria-live="polite" data-reveal="fade-up">
+            <!-- Rendered dynamically from JSON gallery items -->
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           14. PARENT & FAMILY EVENTS
+           ================================================================= -->
+      <section class="family-events section section--soft" id="family-events" aria-label="Parent and family events">
+        <div class="container family-layout">
+          <div class="family-media" data-reveal="fade-in">
+            <img
+              src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=1200&q=85"
+              alt="Parents and teachers engaged in positive, supportive discussion at school"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="family-copy" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">FOR OUR FAMILIES</p>
+            <h2>School Events Are Community Events</h2>
+            <p>
+              We believe a child's education is a collaborative journey between home and school. Families are warmly welcomed into the Horizon community to celebrate learning milestones, participate in dialogues, and cheer on student achievements.
+            </p>
+
+            <div class="family-features">
+              <div class="family-feature-item">
+                <i class="fa-solid fa-comments" aria-hidden="true"></i>
+                <span>Parent-Teacher Dialogues</span>
+              </div>
+              <div class="family-feature-item">
+                <i class="fa-solid fa-award" aria-hidden="true"></i>
+                <span>Academic Showcases</span>
+              </div>
+              <div class="family-feature-item">
+                <i class="fa-solid fa-school" aria-hidden="true"></i>
+                <span>Campus Open Mornings</span>
+              </div>
+              <div class="family-feature-item">
+                <i class="fa-solid fa-seedling" aria-hidden="true"></i>
+                <span>Community Eco Days</span>
+              </div>
+            </div>
+
+            <button type="button" class="button button--primary" data-filter-family-events>
+              <i class="fa-solid fa-users" aria-hidden="true"></i> Explore Family Events
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           15. STUDENT PARTICIPATION (ENGAGEMENT SEQUENCE)
+           ================================================================= -->
+      <section class="student-participation section" id="student-participation" aria-label="Student participation in school life">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">STUDENT OWNERSHIP</p>
+            <h2>Students Don't Just Attend. They Participate.</h2>
+            <p>
+              Every event provides real opportunities for students to organize, lead, present, perform, collaborate, and support peers.
+            </p>
+          </div>
+
+          <div class="participation-track">
+            <article class="participation-step" data-reveal="fade-up" data-delay="0">
+              <span class="participation-step__num">01</span>
+              <h3>Discover</h3>
+              <p>Students identify questions, explore artistic forms, develop fitness goals, or discover issues that matter to them.</p>
+            </article>
+
+            <article class="participation-step" data-reveal="fade-up" data-delay="80">
+              <span class="participation-step__num">02</span>
+              <h3>Prepare</h3>
+              <p>Under mentorship from teachers, students research, rehearse, build prototypes, and organize roles in team settings.</p>
+            </article>
+
+            <article class="participation-step" data-reveal="fade-up" data-delay="160">
+              <span class="participation-step__num">03</span>
+              <h3>Participate</h3>
+              <p>On event day, students step forward to speak, compete, perform, manage logistics, and share ideas with authentic audiences.</p>
+            </article>
+
+            <article class="participation-step" data-reveal="fade-up" data-delay="240">
+              <span class="participation-step__num">04</span>
+              <h3>Reflect</h3>
+              <p>Learners review audience feedback, celebrate growth with classmates, and apply new confidence to their everyday studies.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           16. EVENT REMINDERS
+           ================================================================= -->
+      <section class="event-reminders section section--soft" id="event-reminders" aria-label="Helpful reminders for event attendees">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">VISITOR GUIDELINES</p>
+            <h2>Planning to Attend?</h2>
+            <p>A few helpful reminders to ensure your visit to our school events is smooth, enjoyable, and safe for all community members.</p>
+          </div>
+
+          <div class="reminders-grid">
+            <article class="reminder-card" data-reveal="fade-up">
+              <span class="reminder-icon"><i class="fa-solid fa-list-check" aria-hidden="true"></i></span>
+              <div>
+                <h3>Check the Event Details</h3>
+                <p>Review the event date, scheduled start time, specific campus location, and any audience guidelines in advance.</p>
+              </div>
+            </article>
+
+            <article class="reminder-card" data-reveal="fade-up">
+              <span class="reminder-icon"><i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i></span>
+              <div>
+                <h3>Arrive Prepared</h3>
+                <p>Arrive 10–15 minutes early for seating and parking. Bring any specific materials, athletic kits, or RSVPs required.</p>
+              </div>
+            </article>
+
+            <article class="reminder-card" data-reveal="fade-up">
+              <span class="reminder-icon"><i class="fa-solid fa-bell" aria-hidden="true"></i></span>
+              <div>
+                <h3>Stay Connected</h3>
+                <p>Check the school's official communication notices for weather updates, schedule refinements, and campus parking details.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           17. EVENT NOTIFICATION / CALL TO ACTION
+           ================================================================= -->
+      <section class="events-cta section section--accent" id="stay-updated" aria-label="Stay up to date with Horizon school life">
+        <div class="container events-cta__inner" data-reveal="fade-up">
+          <div class="events-cta__copy">
+            <p class="eyebrow eyebrow--small">CONNECT WITH HORIZON</p>
+            <h2>Stay Up to Date With School Life</h2>
+            <p>
+              Keep track of upcoming activities, important school milestones, athletic tournaments, and opportunities to take part in the vibrant Horizon community.
+            </p>
+            <div class="events-cta-actions">
+              <a href="mailto:admissions@horizoninternationalschool.edu?subject=Admissions%20&%20Event%20Enquiry" class="button button--primary">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i> Contact Admissions
+              </a>
+              <a href="#school-calendar" class="button button--secondary button--light">
+                <i class="fa-solid fa-calendar-days" aria-hidden="true"></i> School Calendar
+              </a>
+            </div>
+          </div>
+
+          <div class="events-cta-form">
+            <h3>Event Updates &amp; Notifications</h3>
+            <p>Enter your email to receive school calendar notices and event announcements directly.</p>
+            <form class="events-cta-input-group" onsubmit="event.preventDefault(); alert('Thank you! For calendar subscriptions, please reach out to the admissions office at admissions@horizoninternationalschool.edu');">
+              <input type="email" placeholder="Enter your email address" required aria-label="Email address for event notifications" />
+              <button type="submit" class="button button--primary" style="min-height: 48px;">
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================================
+           18. FAQ SECTION (ACCESSIBLE ACCORDION)
+           ================================================================= -->
+      <section class="events-faq section section--soft" id="events-faq" aria-label="Frequently asked questions about school events">
+        <div class="container">
+          <div class="section-heading" data-reveal="fade-up">
+            <p class="eyebrow eyebrow--small">HELPFUL INFORMATION</p>
+            <h2>Frequently Asked Questions</h2>
+            <p>Clear answers to common questions regarding event schedules, family participation, and attendance guidelines.</p>
+          </div>
+
+          <div class="events-faq-list" data-reveal="fade-up">
+            <article class="events-faq-item">
+              <h3>
+                <button class="events-faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-1" id="faq-btn-1">
+                  How can I find upcoming school events?
+                  <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="events-faq-answer" id="faq-ans-1" role="region" aria-labelledby="faq-btn-1" hidden>
+                <div>
+                  <p>
+                    All upcoming school events are published on this page, where you can easily search by title or keyword and filter by categories including Academic, Sports, Arts, Student Life, Workshops, and Admissions. You can also inspect the monthly interactive calendar.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="events-faq-item">
+              <h3>
+                <button class="events-faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-2" id="faq-btn-2">
+                  Can families attend school events?
+                  <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="events-faq-answer" id="faq-ans-2" role="region" aria-labelledby="faq-btn-2" hidden>
+                <div>
+                  <p>
+                    Yes, many of our events warmly welcome families, including our Annual Learning Showcase, Sports Championships, Arts Evenings, Parent-Teacher Conferences, and Community Days. Please check each event’s details to verify the intended audience and whether prior registration is requested.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="events-faq-item">
+              <h3>
+                <button class="events-faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-3" id="faq-btn-3">
+                  How can I get event updates?
+                  <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="events-faq-answer" id="faq-ans-3" role="region" aria-labelledby="faq-btn-3" hidden>
+                <div>
+                  <p>
+                    Event updates are announced through this official website, the school parent portal, and school administrative emails. For prospective families, reaching out directly to the admissions team is the best way to receive timely invitations and schedules.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="events-faq-item">
+              <h3>
+                <button class="events-faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-4" id="faq-btn-4">
+                  Can event dates change?
+                  <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="events-faq-answer" id="faq-ans-4" role="region" aria-labelledby="faq-btn-4" hidden>
+                <div>
+                  <p>
+                    While we make every effort to adhere strictly to our published term schedule, outdoor events or specialized activities may occasionally be adjusted due to weather or academic considerations. Any updates are promptly reflected here and communicated to enrolled families.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="events-faq-item">
+              <h3>
+                <button class="events-faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-5" id="faq-btn-5">
+                  Where are school events held?
+                  <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="events-faq-answer" id="faq-ans-5" role="region" aria-labelledby="faq-btn-5" hidden>
+                <div>
+                  <p>
+                    Most events take place on the main Horizon International School campus in specialized venues such as the Performing Arts Auditorium, Sports Complex &amp; Running Track, Innovation Labs, Library Foyer, or Central Quadrangle. Each event card indicates the exact location.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="events-faq-item">
+              <h3>
+                <button class="events-faq-question" type="button" aria-expanded="false" aria-controls="faq-ans-6" id="faq-btn-6">
+                  How can I ask about an event?
+                  <i class="fa-solid fa-plus" aria-hidden="true"></i>
+                </button>
+              </h3>
+              <div class="events-faq-answer" id="faq-ans-6" role="region" aria-labelledby="faq-btn-6" hidden>
+                <div>
+                  <p>
+                    If you have questions about a specific event or wish to arrange attendance for a tour or showcase, please contact our admissions and administrative office via telephone at +92 21 3456 7890 or email at <a href="mailto:admissions@horizoninternationalschool.edu" style="color: var(--secondary-color); font-weight: 600;">admissions@horizoninternationalschool.edu</a>.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =================================================================
+         ACCESSIBLE EVENT DETAILS MODAL
+         ================================================================= -->
+    <div class="event-modal" id="event-modal" aria-hidden="true">
+      <div class="event-modal__backdrop"></div>
+      <div
+        class="event-modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-event-title"
+        tabindex="-1"
+      >
+        <button class="event-modal__close" type="button" aria-label="Close event details modal">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <div id="event-modal-content">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+    </div>
+
+    <!-- =================================================================
+         ACCESSIBLE PHOTO GALLERY LIGHTBOX
+         ================================================================= -->
+    <div class="events-lightbox" id="events-lightbox" aria-hidden="true">
+      <div
+        class="events-lightbox__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Event image preview viewer"
+        tabindex="-1"
+      >
+        <button class="events-lightbox__close" type="button" aria-label="Close image viewer">
+          <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+        </button>
+        <button class="events-lightbox__nav events-lightbox__previous" type="button" aria-label="Previous photo">
+          <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <figure class="events-lightbox__figure">
+          <img src="" alt="" />
+          <figcaption></figcaption>
+          <p class="events-lightbox__count" aria-live="polite"></p>
+        </figure>
+        <button class="events-lightbox__nav events-lightbox__next" type="button" aria-label="Next photo">
+          <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- =================================================================
+         SITE FOOTER
+         ================================================================= -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="brand brand--footer">
+            <span class="brand__mark">H</span>
+            <span>
+              <strong>Horizon</strong>
+              <small>International School</small>
+            </span>
+          </div>
+          <p>Inspiring Minds. Empowering Futures.</p>
+        </div>
+
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="campus.html">Campus</a></li>
+            <li><a href="events.html" aria-current="page">Events</a></li>
+            <li><a href="index.html#gallery">Gallery</a></li>
+            <li><a href="mailto:admissions@horizoninternationalschool.edu">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Admissions</h3>
+          <ul>
+            <li><a href="admissions.html">Admission Process</a></li>
+            <li><a href="admissions.html">Requirements</a></li>
+            <li><a href="admissions.html">Fee Structure</a></li>
+            <li><a href="admissions.html#application">Online Application</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contact</h3>
+          <ul class="contact-list">
+            <li>Karachi, Pakistan</li>
+            <li><a href="tel:+922134567890">+92 21 3456 7890</a></li>
+            <li>
+              <a href="mailto:admissions@horizoninternationalschool.edu">admissions@horizoninternationalschool.edu</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Social Media</h3>
+          <ul class="social-links">
+            <li>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i> Instagram</a>
+            </li>
+            <li>
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+            </li>
+            <li>
+              <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i> YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom__inner">
+          <p>&copy; 2026 Horizon International School. All rights reserved.</p>
+          <div class="footer-legal">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms &amp; Conditions</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" type="button" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/events.js"></script>
+  </body>
+</html>
